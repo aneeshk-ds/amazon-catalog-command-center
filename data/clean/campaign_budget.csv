@@ -1,0 +1,596 @@
+campaign_label,asin,product_hint,tactic,sum_of_spend,spend_share,total_budget,campaign_level_budget
+VitalCore | Resveratrol | BROAD | B01FWFE7VK,B01FWFE7VK,VitalCore,BROAD,38.13,0.02,65.0,1.36
+VitalCore | Resveratrol | CT | B01FWFE7VK,B01FWFE7VK,VitalCore,CT,6.66,0.0,65.0,0.24
+VitalCore | Resveratrol | Exact | B01FWFE7VK,B01FWFE7VK,VitalCore,Exact,58.08,0.03,65.0,2.08
+VitalCore | Resveratrol | New PT - Antioxydants | B01FWFE7VK,B01FWFE7VK,VitalCore,New PT - Antioxydants,224.13,0.12,65.0,8.01
+VitalCore | Resveratrol | NEW-AUTO | B01FWFE7VK,B01FWFE7VK,VitalCore,NEW-AUTO,39.68,0.02,65.0,1.42
+VitalCore | Resveratrol | PHRASE | B01FWFE7VK,B01FWFE7VK,VitalCore,PHRASE,3.06,0.0,65.0,0.11
+VitalCore | Resveratrol | PT | B01FWFE7VK,B01FWFE7VK,VitalCore,PT,58.93,0.03,65.0,2.11
+VitalCore | Resveratrol | PT 1 | B01FWFE7VK,B01FWFE7VK,VitalCore,PT 1,1104.17,0.61,65.0,39.45
+VitalCore | Resveratrol | Self PT | B01FWFE7VK,B01FWFE7VK,VitalCore,Self PT,27.95,0.02,65.0,1.0
+VitalCore | Resveratrol | SKAG | B01FWFE7VK,B01FWFE7VK,VitalCore,SKAG,75.06,0.04,65.0,2.68
+VitalCore | Resveratrol | SKAG 2 | B01FWFE7VK,B01FWFE7VK,VitalCore,SKAG 2,16.04,0.01,65.0,0.57
+VitalCore | Resveratrol | SQP | Exact | B01FWFE7VK,B01FWFE7VK,VitalCore,Exact,167.24,0.0919,65.0,5.98
+VitalCore | Marine Collagen Advanced | AUTO  | B078Y7M3S1,B078Y7M3S1,VitalCore,AUTO,158.23,0.04,800.0,28.9
+VitalCore | Marine Collagen Advanced | Comp Brand Kws | B078Y7M3S1,B078Y7M3S1,VitalCore,Comp Brand Kws,32.42,0.01,800.0,5.92
+VitalCore | Marine Collagen Advanced | Novoma-PT | B078Y7M3S1,B078Y7M3S1,VitalCore,Novoma-PT,52.53,0.01,800.0,9.6
+VitalCore | Marine Collagen Advanced | Nutrimea-PT | B078Y7M3S1,B078Y7M3S1,VitalCore,Nutrimea-PT,112.54,0.03,800.0,20.56
+VitalCore | Marine Collagen Advanced | Powder-PT | High Price | B078Y7M3S1,B078Y7M3S1,VitalCore,High Price,10.27,0.0,800.0,1.88
+VitalCore | Marine Collagen Advanced | Primary KWs | B078Y7M3S1,B078Y7M3S1,VitalCore,Primary KWs,130.4,0.03,800.0,23.82
+VitalCore | Marine Collagen Advanced | PT | B078Y7M3S1,B078Y7M3S1,VitalCore,PT,196.17,0.04,800.0,35.83
+VitalCore | Marine Collagen Advanced | Secondary KWs | B078Y7M3S1,B078Y7M3S1,VitalCore,Secondary KWs,136.09,0.03,800.0,24.86
+VitalCore | Marine Collagen Advanced | Self PT | B078Y7M3S1,B078Y7M3S1,VitalCore,Self PT,193.0,0.04,800.0,35.25
+VitalCore | Marine Collagen Advanced | SKAG | B078Y7M3S1,B078Y7M3S1,VitalCore,SKAG,2377.93,0.54,800.0,434.36
+VitalCore |Marine Collagen Advanced | 3 KAG | B078Y7M3S1,B078Y7M3S1,VitalCore,3 KAG,980.09,0.2238,800.0,179.03
+VitalCore | Pure Marine Collagen | 2 KAG-collagen marin | B079C336Y3,B079C336Y3,VitalCore,2 KAG-collagen marin,5433.35,0.58,2327.0,1359.98
+VitalCore | Pure Marine Collagen | Exact-1 | B079C336Y3,B079C336Y3,VitalCore,Exact-1,92.37,0.01,2327.0,23.12
+VitalCore | Pure Marine Collagen | EXACT-2 | Multi Ad grp | B079C336Y3,B079C336Y3,VitalCore,Multi Ad grp,86.12,0.01,2327.0,21.56
+VitalCore | Pure Marine Collagen | New PT | B079C336Y3,B079C336Y3,VitalCore,New PT,190.76,0.02,2327.0,47.75
+VitalCore | Pure Marine Collagen | Powder PT-1 | B079C336Y3,B079C336Y3,VitalCore,Powder PT-1,36.25,0.0,2327.0,9.07
+VitalCore | Pure Marine Collagen | Powder PT-2 | B079C336Y3,B079C336Y3,VitalCore,Powder PT-2,13.83,0.0,2327.0,3.46
+VitalCore | Pure Marine Collagen | PT | Novoma  | B079C336Y3,B079C336Y3,VitalCore,Novoma,570.87,0.06,2327.0,142.89
+VitalCore | Pure Marine Collagen | PT | Nutrimea-Best Seller | B079C336Y3,B079C336Y3,VitalCore,Nutrimea-Best Seller,460.42,0.05,2327.0,115.24
+VitalCore | Pure Marine Collagen | Self PT | U/D | B079C336Y3,B079C336Y3,VitalCore,U/D,1422.54,0.15,2327.0,356.07
+VitalCore | Pure Marine Collagen | SKAG - collagene | B079C336Y3,B079C336Y3,VitalCore,SKAG - collagene,416.93,0.04,2327.0,104.36
+VitalCore | Pure Marine Collagen | SKAG-PT | Novoma- Advanced Collagen | BS | B079C336Y3,B079C336Y3,VitalCore,BS,75.47,0.01,2327.0,18.89
+VitalCore | Pure Marine Collagen 90 Capsules | Auto | B079C336Y3,B079C336Y3,VitalCore,Auto,216.21,0.02,2327.0,54.12
+VitalCore | Pure Marine Collagen 90 Capsules | Broad | B079C336Y3,B079C336Y3,VitalCore,Broad,144.69,0.02,2327.0,36.22
+VitalCore | Pure Marine Collagen 90 Capsules | CT | B079C336Y3,B079C336Y3,VitalCore,CT,24.58,0.0026,2327.0,6.15
+VitalCore | Pure Marine Collagen 90 Capsules | Exact | Type Related Kw | B079C336Y3,B079C336Y3,VitalCore,Type Related Kw,2.16,0.0,2327.0,0.54
+VitalCore | Pure Marine Collagen 90 Capsules | Phrase | B079C336Y3,B079C336Y3,VitalCore,Phrase,86.24,0.01,2327.0,21.59
+VitalCore | Pure Marine Collagen 90 Capsules | Tablet -PT | B079C336Y3,B079C336Y3,VitalCore,Tablet -PT,23.94,0.0,2327.0,5.99
+VitalCore | | CLA | BROAD | B07K9X11YV,B07K9X11YV,VitalCore,BROAD,72.32,0.09,140.0,13.1
+VitalCore | | CLA | L-Carnitine PT | B07K9X11YV,B07K9X11YV,VitalCore,L-Carnitine PT,33.34,0.04,140.0,6.04
+VitalCore | | CLA | PHRASE| B07K9X11YV,B07K9X11YV,VitalCore,PHRASE,5.66,0.01,140.0,1.03
+VitalCore | CLA Softgels | Auto | B07K9X11YV,B07K9X11YV,VitalCore,Auto,14.96,0.02,140.0,2.71
+VitalCore | CLA Softgels | Exact-1 | B07K9X11YV,B07K9X11YV,VitalCore,Exact-1,50.92,0.07,140.0,9.22
+VitalCore | CLA Softgels | Main Exact | B07K9X11YV,B07K9X11YV,VitalCore,Main Exact,281.01,0.36,140.0,50.9
+VitalCore | CLA Softgels | Moved EX | B07K9X11YV,B07K9X11YV,VitalCore,Moved EX,104.08,0.13,140.0,18.85
+VitalCore | CLA Softgels | New PT | B07K9X11YV,B07K9X11YV,VitalCore,New PT,35.34,0.05,140.0,6.4
+VitalCore | CLA Softgels | New-CT | B07K9X11YV,B07K9X11YV,VitalCore,New-CT,175.29,0.2268,140.0,31.75
+VitalCore | Glucosamine | AUTO | B07L9C38RD,B07L9C38RD,VitalCore,AUTO,27.18,0.01,238.0,3.19
+VitalCore | Glucosamine | BROAD | B07L9C38RD,B07L9C38RD,VitalCore,BROAD,165.51,0.08,238.0,19.45
+VitalCore | Glucosamine | CT New | B07L9C38RD,B07L9C38RD,VitalCore,CT New,13.86,0.01,238.0,1.63
+VitalCore | Glucosamine | EXACT-1 | B07L9C38RD,B07L9C38RD,VitalCore,EXACT-1,653.95,0.32,238.0,76.85
+VitalCore | Glucosamine | Moved/New | PT-2 | B07L9C38RD,B07L9C38RD,VitalCore,PT-2,214.7,0.106,238.0,25.23
+VitalCore | Glucosamine | PHRASE | B07L9C38RD,B07L9C38RD,VitalCore,PHRASE,12.84,0.01,238.0,1.51
+VitalCore | Glucosamine | PT- 1 | B07L9C38RD,B07L9C38RD,VitalCore,PT- 1,24.1,0.01,238.0,2.83
+VitalCore | Glucosamine | PT-Self | B07L9C38RD,B07L9C38RD,VitalCore,PT-Self,27.19,0.01,238.0,3.2
+VitalCore | Glucosamine | SKAG - 1 | B07L9C38RD,B07L9C38RD,VitalCore,SKAG - 1,687.06,0.34,238.0,80.74
+VitalCore | Glucosamine | SKAG - 2 | B07L9C38RD,B07L9C38RD,VitalCore,SKAG - 2,84.15,0.04,238.0,9.89
+VitalCore | Glucosamine | SQP Exact | B07L9C38RD,B07L9C38RD,VitalCore,SQP Exact,114.74,0.06,238.0,13.48
+VitalCore | Vibration Plate | CT | U/D | B07LH6X6VC,B07LH6X6VC,VitalCore,U/D,2247.29,0.74,153.0,112.79
+VitalCore | Vibration Plate | SQP | Exact | B07LH6X6VC,B07LH6X6VC,VitalCore,Exact,801.12,0.26,153.0,40.21
+VitalCore | CoQ10 200mg 120 Capsules | 2KAG | B07MZY4P1R,B07MZY4P1R,VitalCore,2KAG,14.28,0.011,59.0,0.65
+VitalCore | CoQ10 200mg 120 Capsules | 4KAG | B07MZY4P1R,B07MZY4P1R,VitalCore,4KAG,699.31,0.54,59.0,31.78
+VitalCore | CoQ10 200mg 120 Capsules | BROAD | B07MZY4P1R,B07MZY4P1R,VitalCore,BROAD,48.76,0.04,59.0,2.22
+VitalCore | CoQ10 200mg 120 Capsules | Exact-2 | B07MZY4P1R,B07MZY4P1R,VitalCore,Exact-2,25.19,0.02,59.0,1.14
+VitalCore | CoQ10 200mg 120 Capsules | New Auto | B07MZY4P1R,B07MZY4P1R,VitalCore,New Auto,23.31,0.02,59.0,1.06
+VitalCore | CoQ10 200mg 120 Capsules | New PT | B07MZY4P1R,B07MZY4P1R,VitalCore,New PT,35.39,0.03,59.0,1.61
+VitalCore | CoQ10 200mg 120 Capsules | PHRASE | B07MZY4P1R,B07MZY4P1R,VitalCore,PHRASE,44.22,0.03,59.0,2.01
+VitalCore | CoQ10 200mg 120 Capsules | PT | B07MZY4P1R,B07MZY4P1R,VitalCore,PT,0.0,0.0,59.0,0.0
+VitalCore | CoQ10 200mg 120 Capsules | PT-1 | U/D | B07MZY4P1R,B07MZY4P1R,VitalCore,U/D,315.29,0.24,59.0,14.33
+VitalCore | CoQ10 200mg 120 Capsules | SQP | Exact | B07MZY4P1R,B07MZY4P1R,VitalCore,Exact,70.66,0.05,59.0,3.21
+VitalCore | CoQ10 Plus 200mg 120 Capsules | CT | B07MZY4P1R,B07MZY4P1R,VitalCore,CT,21.76,0.02,59.0,0.99
+VitalCore | Krill Oil 500 mg | Broad | B07PDFXWCD,B07PDFXWCD,VitalCore,Broad,89.01,0.0818,102.0,8.35
+VitalCore | Krill Oil 500 mg | Omega 3 PT | B07PDFXWCD,B07PDFXWCD,VitalCore,Omega 3 PT,56.22,0.05,102.0,5.27
+VitalCore | Krill Oil 500 mg | Omega 3 Single PT | B07PDFXWCD,B07PDFXWCD,VitalCore,Omega 3 Single PT,620.04,0.57,102.0,58.15
+VitalCore | Krill Oil 500 mg | Phrase | B07PDFXWCD,B07PDFXWCD,VitalCore,Phrase,4.29,0.0,102.0,0.4
+VitalCore | Krill Oil 500 mg | Top Exact | B07PDFXWCD,B07PDFXWCD,VitalCore,Top Exact,139.46,0.13,102.0,13.08
+VitalCore | Krill Oil 500mg | AUTO 2.0 | B07PDFXWCD,B07PDFXWCD,VitalCore,AUTO 2.0,4.27,0.0,102.0,0.4
+VitalCore | Krill Oil 500mg | CT | B07PDFXWCD,B07PDFXWCD,VitalCore,CT,0.0,0.0,102.0,0.0
+VitalCore | Krill Oil 500mg | EXACT 1 | B07PDFXWCD,B07PDFXWCD,VitalCore,EXACT 1,35.02,0.03,102.0,3.28
+VitalCore | Krill Oil 500mg | Moved Exact | B07PDFXWCD,B07PDFXWCD,VitalCore,Moved Exact,62.18,0.06,102.0,5.83
+VitalCore | Krill Oil 500mg | PT 1 | B07PDFXWCD,B07PDFXWCD,VitalCore,PT 1,30.42,0.03,102.0,2.85
+VitalCore | Krill Oil 500mg | PT 2 | B07PDFXWCD,B07PDFXWCD,VitalCore,PT 2,36.22,0.03,102.0,3.4
+VitalCore | Krill Oil 500mg | SELF PT | B07PDFXWCD,B07PDFXWCD,VitalCore,SELF PT,10.51,0.0097,102.0,0.99
+VitalCore | Organic Turmeric 365 | 4KAG | B07YNVK1MB,B07YNVK1MB,VitalCore,4KAG,197.96,0.24,355.0,85.01
+VitalCore | Organic Turmeric 365 | Auto 2.0 | B07YNVK1MB,B07YNVK1MB,VitalCore,Auto 2.0,130.52,0.16,355.0,56.05
+VitalCore | Organic Turmeric 365 | BROAD | B07YNVK1MB,B07YNVK1MB,VitalCore,BROAD,52.43,0.06,355.0,22.52
+VitalCore | Organic Turmeric 365 | CT | B07YNVK1MB,B07YNVK1MB,VitalCore,CT,60.65,0.07,355.0,26.05
+VitalCore | Organic Turmeric 365 | Exact-II | B07YNVK1MB,B07YNVK1MB,VitalCore,Exact-II,18.72,0.02,355.0,8.04
+VitalCore | Organic Turmeric 365 | New Exact | B07YNVK1MB,B07YNVK1MB,VitalCore,New Exact,60.2,0.07,355.0,25.85
+VitalCore | Organic Turmeric 365 | Phrase | B07YNVK1MB,B07YNVK1MB,VitalCore,Phrase,40.29,0.05,355.0,17.3
+VitalCore | Organic Turmeric 365 | Powder - PT | B07YNVK1MB,B07YNVK1MB,VitalCore,Powder - PT,0.92,0.0,355.0,0.4
+VitalCore | Organic Turmeric 365 | PT-I | B07YNVK1MB,B07YNVK1MB,VitalCore,PT-I,137.41,0.17,355.0,59.01
+VitalCore | Organic Turmeric 365 | PT-New | B07YNVK1MB,B07YNVK1MB,VitalCore,PT-New,22.04,0.03,355.0,9.47
+VitalCore | Organic Turmeric 365 | self -  PT | B07YNVK1MB,B07YNVK1MB,VitalCore,self -  PT,8.14,0.0098,355.0,3.5
+VitalCore | Organic Turmeric 365 | SKAG | curcuma | B07YNVK1MB,B07YNVK1MB,VitalCore,curcuma,97.35,0.12,355.0,41.81
+VitalCore | Bio Culture Complex | Auto-New | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,Auto-New,90.23,0.06,168.0,9.39
+VitalCore | Bio Culture Complex | Broad New | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,Broad New,158.65,0.1,168.0,16.52
+VitalCore | Bio Culture Complex | CT to PT | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,CT to PT,17.08,0.01,168.0,1.78
+VitalCore | Bio Culture Complex | EXACT-1 | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,EXACT-1,45.93,0.03,168.0,4.78
+VitalCore | Bio Culture Complex | Phrase -1 | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,Phrase -1,102.23,0.06,168.0,10.64
+VitalCore | Bio Culture Complex | PT -3 | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,PT -3,48.81,0.03,168.0,5.08
+VitalCore | Bio Culture Complex | PT new 2 | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,PT new 2,11.11,0.01,168.0,1.16
+VitalCore | Bio Culture Complex | PT Nutri&Co | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,PT Nutri&Co,54.03,0.03,168.0,5.63
+VitalCore | Bio Culture Complex | PT Nutrivita | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,PT Nutrivita,9.25,0.01,168.0,0.96
+VitalCore | Bio Culture Complex | PT-Self | U/D | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,U/D,312.05,0.19,168.0,32.49
+VitalCore | Bio Culture Complex | SKAG - Probiotique | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,SKAG - Probiotique,446.77,0.28,168.0,46.51
+VitalCore | Bio Culture Complex | SKAG -Probiotique flore intestinale | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,SKAG -Probiotique flore intestinale,284.91,0.18,168.0,29.66
+VitalCore | Bio Culture Complex | SP CT | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,SP CT,16.11,0.01,168.0,1.68
+VitalCore | Bio Culture Complex | SQP | B07ZKMCN2Z,B07ZKMCN2Z,VitalCore,SQP,16.53,0.01,168.0,1.72
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | 2- PT (Best Seller)| B07ZZ4G399,B07ZZ4G399,VitalCore,2- PT (Best Seller),5.85,0.0045,38.0,0.17
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Auto | B07ZZ4G399,B07ZZ4G399,VitalCore,Auto,40.19,0.03,38.0,1.17
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Broad Modifier | B07ZZ4G399,B07ZZ4G399,VitalCore,Broad Modifier,41.68,0.032,38.0,1.22
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Broad SKAG | B07ZZ4G399,B07ZZ4G399,VitalCore,Broad SKAG,8.8,0.01,38.0,0.26
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | EFB & EFP  | B07ZZ4G399,B07ZZ4G399,VitalCore,EFB & EFP,13.38,0.01,38.0,0.39
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Exact - 1| B07ZZ4G399,B07ZZ4G399,VitalCore,Exact - 1,54.06,0.04,38.0,1.58
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | MAIN Exact | B07ZZ4G399,B07ZZ4G399,VitalCore,MAIN Exact,792.9,0.61,38.0,23.14
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | New-PT | B07ZZ4G399,B07ZZ4G399,VitalCore,New-PT,15.63,0.01,38.0,0.46
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Phrase | B07ZZ4G399,B07ZZ4G399,VitalCore,Phrase,133.0,0.1021,38.0,3.88
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | PT | B07ZZ4G399,B07ZZ4G399,VitalCore,PT,60.63,0.05,38.0,1.77
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | PT 2 | B07ZZ4G399,B07ZZ4G399,VitalCore,PT 2,15.64,0.01,38.0,0.46
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | PT-1 | B07ZZ4G399,B07ZZ4G399,VitalCore,PT-1,1.14,0.0,38.0,0.03
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | Self-PT | B07ZZ4G399,B07ZZ4G399,VitalCore,Self-PT,40.1,0.03,38.0,1.17
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | SP-CT | B07ZZ4G399,B07ZZ4G399,VitalCore,SP-CT,10.94,0.01,38.0,0.32
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | SQP - EXACT | B07ZZ4G399,B07ZZ4G399,VitalCore,SQP - EXACT,32.63,0.03,38.0,0.95
+VitalCore | Hyaluronic Acid 300mg 180 Capsules | SQP - EXACT 1 | B07ZZ4G399,B07ZZ4G399,VitalCore,SQP - EXACT 1,35.76,0.03,38.0,1.04
+VitalCore | Biotin 365 Tablets | 2KAG | B0817WBXKF,B0817WBXKF,VitalCore,2KAG,32.38,0.02,128.0,2.98
+VitalCore | Biotin 365 Tablets | 5KAG | B0817WBXKF,B0817WBXKF,VitalCore,5KAG,255.87,0.1837,128.0,23.51
+VitalCore | Biotin 365 Tablets | AUTO | B0817WBXKF,B0817WBXKF,VitalCore,AUTO,72.15,0.05,128.0,6.63
+VitalCore | Biotin 365 Tablets | BROAD | B0817WBXKF,B0817WBXKF,VitalCore,BROAD,251.24,0.18,128.0,23.09
+VitalCore | Biotin 365 Tablets | CT | B0817WBXKF,B0817WBXKF,VitalCore,CT,16.84,0.01,128.0,1.55
+VitalCore | Biotin 365 Tablets | Exact | B0817WBXKF,B0817WBXKF,VitalCore,Exact,14.71,0.01,128.0,1.35
+VitalCore | Biotin 365 Tablets | Moved EX | B0817WBXKF,B0817WBXKF,VitalCore,Moved EX,67.75,0.05,128.0,6.23
+VitalCore | Biotin 365 Tablets | Phrase | B0817WBXKF,B0817WBXKF,VitalCore,Phrase,5.34,0.0,128.0,0.49
+VitalCore | Biotin 365 Tablets | PT | B0817WBXKF,B0817WBXKF,VitalCore,PT,30.18,0.02,128.0,2.77
+VitalCore | Biotin 365 Tablets | PT 1 | B0817WBXKF,B0817WBXKF,VitalCore,PT 1,195.31,0.14,128.0,17.95
+VitalCore | Biotin 365 Tablets | PT-1 | B0817WBXKF,B0817WBXKF,VitalCore,PT-1,33.0,0.0237,128.0,3.03
+VitalCore | Biotin 365 Tablets | Self-PT | B0817WBXKF,B0817WBXKF,VitalCore,Self-PT,90.27,0.06,128.0,8.29
+VitalCore | Biotin 365 Tablets | SKAG | B0817WBXKF,B0817WBXKF,VitalCore,SKAG,327.93,0.24,128.0,30.13
+VitalCore | Apple Cider Vinegar | Broad | B081NCGQPB,B081NCGQPB,VitalCore,Broad,48.61,0.05,77.0,3.56
+VitalCore | Apple Cider Vinegar | Exact -2 | B081NCGQPB,B081NCGQPB,VitalCore,Exact -2,403.46,0.38,77.0,29.54
+VitalCore | Apple Cider Vinegar | Morosil PT | B081NCGQPB,B081NCGQPB,VitalCore,Morosil PT,62.64,0.06,77.0,4.59
+VitalCore | Apple Cider Vinegar | Phrase | B081NCGQPB,B081NCGQPB,VitalCore,Phrase,64.11,0.06,77.0,4.69
+VitalCore | Apple Cider Vinegar | Self -PT | B081NCGQPB,B081NCGQPB,VitalCore,Self -PT,58.13,0.06,77.0,4.26
+VitalCore | Apple Cider Vinegar | Single- PT- Liquid | B081NCGQPB,B081NCGQPB,VitalCore,Single- PT- Liquid,6.31,0.01,77.0,0.46
+VitalCore | Apple Cider Vinegar | SKAG | B081NCGQPB,B081NCGQPB,VitalCore,SKAG,319.11,0.3,77.0,23.37
+VitalCore | Apple Cider Vinegar Cap. | Exact 02 | B081NCGQPB,B081NCGQPB,VitalCore,Exact 02,34.16,0.03,77.0,2.5
+VitalCore | Apple Cider Vinegar Cap. | Moved ST | B081NCGQPB,B081NCGQPB,VitalCore,Moved ST,55.05,0.05,77.0,4.03
+VitalCore | Omega 3 Fish Oil 1100mg | Self-PT New | B084G5XC29,B084G5XC29,VitalCore,Self-PT New,974.91,0.09,871.0,77.06
+VitalCore | Omega 3 Fish Oil 1100mg 240 Softgels | PT | Brand: NOVOMA   | B084G5XC29,B084G5XC29,VitalCore,Brand: NOVOMA,244.13,0.02,871.0,19.3
+VitalCore | Omega 3 Fish Oil 2000mg 240 caps | PT 1 | B084G5XC29,B084G5XC29,VitalCore,PT 1,9611.88,0.87,871.0,759.76
+VitalCore | Omega 3 Fish Oil 2000mg 240 Softgels | PT | Brand: Nutravita | B084G5XC29,B084G5XC29,VitalCore,Brand: Nutravita,188.3,0.02,871.0,14.88
+VitalCore | VITAMIN C Tablets - 1000 mg |  Exact | B085W65GKF,B085W65GKF,VitalCore,Exact,316.26,0.085,96.0,8.16
+VitalCore | VITAMIN C Tablets - 1000 mg | CT | B085W65GKF,B085W65GKF,VitalCore,CT,160.71,0.04,96.0,4.15
+VitalCore | Vitamin C Tablets - 1000mg | 3KAG | B085W65GKF,B085W65GKF,VitalCore,3KAG,2606.24,0.7,96.0,67.26
+VitalCore | Vitamin C Tablets - 1000mg | Auto | B085W65GKF,B085W65GKF,VitalCore,Auto,36.29,0.01,96.0,0.94
+VitalCore | Vitamin C Tablets - 1000mg | Broad | B085W65GKF,B085W65GKF,VitalCore,Broad,392.72,0.11,96.0,10.13
+VitalCore | Vitamin C Tablets - 1000mg | EFA | B085W65GKF,B085W65GKF,VitalCore,EFA,12.1,0.0,96.0,0.31
+VitalCore | Vitamin C Tablets - 1000mg | EFB | B085W65GKF,B085W65GKF,VitalCore,EFB,12.03,0.0,96.0,0.31
+VitalCore | Vitamin C Tablets - 1000mg | PT | B085W65GKF,B085W65GKF,VitalCore,PT,48.03,0.0129,96.0,1.24
+VitalCore | Vitamin C Tablets - 1000mg | PT 3 | B085W65GKF,B085W65GKF,VitalCore,PT 3,28.04,0.01,96.0,0.72
+VitalCore | Vitamin C Tablets - 1000mg | PT-2 | B085W65GKF,B085W65GKF,VitalCore,PT-2,24.07,0.01,96.0,0.62
+VitalCore | Vitamin C Tablets - 1000mg | Self PT | B085W65GKF,B085W65GKF,VitalCore,Self PT,26.95,0.01,96.0,0.7
+VitalCore | Vitamin C Tablets - 1000mg | SKAG - Vitamin C liposomale | B085W65GKF,B085W65GKF,VitalCore,SKAG - Vitamin C liposomale,56.49,0.02,96.0,1.46
+VitalCore | Multivitamin Gummies 120 Gummies |  Exact Top 2kws  | B086T13DD6,B086T13DD6,VitalCore,Exact Top 2kws,96.5,0.1,147.0,15.13
+VitalCore | Multivitamin Gummies 120 Gummies | Exact | Gummies Kws  | B086T13DD6,B086T13DD6,VitalCore,Gummies Kws,53.07,0.06,147.0,8.32
+VitalCore | Multivitamin Gummies 120 Gummies | PT- Indirect | B086T13DD6,B086T13DD6,VitalCore,PT- Indirect,274.45,0.29,147.0,43.02
+VitalCore | Multivitamin Gummies 120 Gummies | Self- PT   | B086T13DD6,B086T13DD6,VitalCore,Self- PT,513.85,0.55,147.0,80.54
+VitalCore | VITAMIN D3 4000 IU | 2KAG | B086V74KKR,B086V74KKR,VitalCore,2KAG,3544.19,0.61,433.0,265.36
+VitalCore | VITAMIN D3 4000 IU | AUTO-1 | B086V74KKR,B086V74KKR,VitalCore,AUTO-1,139.58,0.02,433.0,10.45
+VitalCore | VITAMIN D3 4000 IU | EXACT 2 | B086V74KKR,B086V74KKR,VitalCore,EXACT 2,78.81,0.01,433.0,5.9
+VitalCore | VITAMIN D3 4000 IU | Exact 3 | B086V74KKR,B086V74KKR,VitalCore,Exact 3,113.86,0.02,433.0,8.52
+VitalCore | VITAMIN D3 4000 IU | Exact 4 | B086V74KKR,B086V74KKR,VitalCore,Exact 4,1357.74,0.2348,433.0,101.66
+VitalCore | VITAMIN D3 4000 IU | PT | B086V74KKR,B086V74KKR,VitalCore,PT,546.27,0.09,433.0,40.9
+VitalCore | VITAMINE D3 4000 UI | EXACT | B086V74KKR,B086V74KKR,VitalCore,EXACT,2.73,0.0,433.0,0.2
+VitalCore | Ginger | Auto 2.0 | B089QHSS5H,B089QHSS5H,VitalCore,Auto 2.0,54.08,0.06,37.0,2.4
+VitalCore | Ginger | Broad | B089QHSS5H,B089QHSS5H,VitalCore,Broad,35.84,0.04,37.0,1.59
+VitalCore | Ginger | CT | B089QHSS5H,B089QHSS5H,VitalCore,CT,1.54,0.0018,37.0,0.07
+VitalCore | Ginger | Exact 1 | B089QHSS5H,B089QHSS5H,VitalCore,Exact 1,308.98,0.37,37.0,13.71
+VitalCore | Ginger | Phrase | B089QHSS5H,B089QHSS5H,VitalCore,Phrase,36.13,0.04,37.0,1.6
+VitalCore | Ginger | PT 1 | B089QHSS5H,B089QHSS5H,VitalCore,PT 1,20.26,0.02,37.0,0.9
+VitalCore | Ginger | SELF-PT | B089QHSS5H,B089QHSS5H,VitalCore,SELF-PT,16.89,0.02,37.0,0.75
+VitalCore | Ginger | SKAG | B089QHSS5H,B089QHSS5H,VitalCore,SKAG,331.09,0.397,37.0,14.69
+VitalCore | Ginger | SQP | EXACT | B089QHSS5H,B089QHSS5H,VitalCore,EXACT,29.21,0.04,37.0,1.3
+VitalCore | Magnesium Citrate | SKAG - Magnesium | B08BTXFQ4F,B08BTXFQ4F,VitalCore,SKAG - Magnesium,3561.45,0.65,457.0,299.25
+VitalCore | Magnesium Citrate 180 Capsules | PT | B08BTXFQ4F,B08BTXFQ4F,VitalCore,PT,53.74,0.01,457.0,4.52
+VitalCore |Magnesium Citrate |  PHRASE | B08BTXFQ4F,B08BTXFQ4F,VitalCore,PHRASE,648.28,0.12,457.0,54.47
+VitalCore |Magnesium Citrate | citrate de magnesium | SKAG |B08BTXFQ4F,B08BTXFQ4F,VitalCore,SKAG,1041.36,0.19,457.0,87.5
+VitalCore |Magnesium Citrate | magnesium citrate | SKAG | B08BTXFQ4F,B08BTXFQ4F,VitalCore,SKAG,134.08,0.02,457.0,11.27
+VitalCore |  BLACK MACA | AUTO | B08BXNX4MF,B08BXNX4MF,VitalCore,AUTO,36.55,0.01,107.0,1.54
+VitalCore | BLACK MACA | 2KAG | B08BXNX4MF,B08BXNX4MF,VitalCore,2KAG,726.77,0.29,107.0,30.67
+VitalCore | BLACK MACA | BROAD | B08BXNX4MF,B08BXNX4MF,VitalCore,BROAD,238.07,0.09,107.0,10.05
+VitalCore | BLACK MACA | CT | B08BXNX4MF,B08BXNX4MF,VitalCore,CT,22.44,0.01,107.0,0.95
+VitalCore | BLACK MACA | EFB | B08BXNX4MF,B08BXNX4MF,VitalCore,EFB,12.93,0.01,107.0,0.55
+VitalCore | BLACK MACA | EXACT | B08BXNX4MF,B08BXNX4MF,VitalCore,EXACT,378.7,0.15,107.0,15.98
+VitalCore | BLACK MACA | Moved EX | B08BXNX4MF,B08BXNX4MF,VitalCore,Moved EX,30.58,0.0121,107.0,1.29
+VitalCore | BLACK MACA | New PT-1 | B08BXNX4MF,B08BXNX4MF,VitalCore,New PT-1,64.54,0.03,107.0,2.72
+VitalCore | BLACK MACA | PHRASE | B08BXNX4MF,B08BXNX4MF,VitalCore,PHRASE,17.85,0.01,107.0,0.75
+VitalCore | BLACK MACA | PT | B08BXNX4MF,B08BXNX4MF,VitalCore,PT,199.99,0.08,107.0,8.44
+VitalCore | BLACK MACA | PT 2 | B08BXNX4MF,B08BXNX4MF,VitalCore,PT 2,60.04,0.02,107.0,2.53
+VitalCore | BLACK MACA | PT 4 | B08BXNX4MF,B08BXNX4MF,VitalCore,PT 4,397.01,0.16,107.0,16.75
+VitalCore | BLACK MACA | Self-PT | B08BXNX4MF,B08BXNX4MF,VitalCore,Self-PT,189.66,0.07,107.0,8.0
+VitalCore | BLACK MACA | SQP-Exact | B08BXNX4MF,B08BXNX4MF,VitalCore,SQP-Exact,131.73,0.05,107.0,5.56
+VitalCore | BLACK MACA | T-Boost PT | B08BXNX4MF,B08BXNX4MF,VitalCore,T-Boost PT,28.64,0.01,107.0,1.21
+VitalCore | Organic Fenugrec 1500 mg | 2KAG | B08BZYM56L,B08BZYM56L,VitalCore,2KAG,188.42,0.15,115.0,17.29
+VitalCore | Organic Fenugrec 1500 mg | AUTO  | B08BZYM56L,B08BZYM56L,VitalCore,AUTO,67.78,0.05,115.0,6.22
+VitalCore | Organic Fenugrec 1500 mg | BROAD | B08BZYM56L,B08BZYM56L,VitalCore,BROAD,43.79,0.03,115.0,4.02
+VitalCore | Organic Fenugrec 1500 mg | CT| B08BZYM56L,B08BZYM56L,VitalCore,CT,44.63,0.04,115.0,4.09
+VitalCore | Organic Fenugrec 1500 mg | EFB | B08BZYM56L,B08BZYM56L,VitalCore,EFB,43.63,0.03,115.0,4.0
+VitalCore | Organic Fenugrec 1500 mg | new PT | B08BZYM56L,B08BZYM56L,VitalCore,new PT,13.25,0.01,115.0,1.22
+VitalCore | Organic Fenugrec 1500 mg | Phrase | B08BZYM56L,B08BZYM56L,VitalCore,Phrase,17.69,0.01,115.0,1.62
+VitalCore | Organic Fenugrec 1500 mg | PT | B08BZYM56L,B08BZYM56L,VitalCore,PT,76.82,0.06,115.0,7.05
+VitalCore | Organic Fenugrec 1500 mg | PT-1 | B08BZYM56L,B08BZYM56L,VitalCore,PT-1,45.2,0.04,115.0,4.15
+VitalCore | Organic Fenugrec 1500 mg | Single-PT 1 | B08BZYM56L,B08BZYM56L,VitalCore,Single-PT 1,23.11,0.0184,115.0,2.12
+VitalCore | Organic Fenugrec 1500 mg | SKAG | B08BZYM56L,B08BZYM56L,VitalCore,SKAG,668.43,0.53,115.0,61.32
+VitalCore | Organic Fenugrec 1500 mg | SQP | B08BZYM56L,B08BZYM56L,VitalCore,SQP,20.81,0.02,115.0,1.91
+VitalCore | Electrolyte complex | BROAD | B08D9N5CK4,B08D9N5CK4,VitalCore,BROAD,24.99,0.02,209.0,4.39
+VitalCore | Electrolyte complex | Broad-PT| B08D9N5CK4,B08D9N5CK4,VitalCore,Broad-PT,24.31,0.02,209.0,4.27
+VitalCore | Electrolyte complex | CT | B08D9N5CK4,B08D9N5CK4,VitalCore,CT,12.4,0.0104,209.0,2.18
+VitalCore | Electrolyte complex | EXACT | B08D9N5CK4,B08D9N5CK4,VitalCore,EXACT,96.22,0.08,209.0,16.88
+VitalCore | Electrolyte complex | Exact-2 | B08D9N5CK4,B08D9N5CK4,VitalCore,Exact-2,49.94,0.04,209.0,8.76
+VitalCore | Electrolyte complex | PHRASE | B08D9N5CK4,B08D9N5CK4,VitalCore,PHRASE,0.34,0.0,209.0,0.06
+VitalCore | Electrolyte complex | PT - Powder | B08D9N5CK4,B08D9N5CK4,VitalCore,PT - Powder,0.0,0.0,209.0,0.0
+VitalCore | Electrolyte complex | PT| B08D9N5CK4,B08D9N5CK4,VitalCore,PT,30.01,0.03,209.0,5.27
+VitalCore | Electrolyte complex | PT-Self | B08D9N5CK4,B08D9N5CK4,VitalCore,PT-Self,856.78,0.72,209.0,150.34
+VitalCore | Electrolyte complex | SKAG 1 | B08D9N5CK4,B08D9N5CK4,VitalCore,SKAG 1,74.84,0.06,209.0,13.13
+VitalCore | Electrolyte complex | SQP | Exact | B08D9N5CK4,B08D9N5CK4,VitalCore,Exact,21.25,0.02,209.0,3.73
+VitalCore | Iron 365 Tablets | 3KAG | B08DG4NXBS,B08DG4NXBS,VitalCore,3KAG,669.77,0.42,168.0,69.92
+VitalCore | Iron 365 Tablets | Auto New | B08DG4NXBS,B08DG4NXBS,VitalCore,Auto New,60.03,0.04,168.0,6.27
+VitalCore | Iron 365 Tablets | Brand wise PTs | B08DG4NXBS,B08DG4NXBS,VitalCore,Brand wise PTs,111.9,0.07,168.0,11.68
+VitalCore | Iron 365 Tablets | BROAD | B08DG4NXBS,B08DG4NXBS,VitalCore,BROAD,105.09,0.07,168.0,10.97
+VitalCore | Iron 365 Tablets | CT | B08DG4NXBS,B08DG4NXBS,VitalCore,CT,103.43,0.06,168.0,10.8
+VitalCore | Iron 365 Tablets | EFA & EFB | B08DG4NXBS,B08DG4NXBS,VitalCore,EFA & EFB,75.83,0.05,168.0,7.92
+VitalCore | Iron 365 Tablets | EXACT-1 | B08DG4NXBS,B08DG4NXBS,VitalCore,EXACT-1,132.27,0.08,168.0,13.81
+VitalCore | Iron 365 Tablets | Phrase | B08DG4NXBS,B08DG4NXBS,VitalCore,Phrase,14.92,0.01,168.0,1.56
+VitalCore | Iron 365 Tablets | PT-1  B08DG4NXBS,B08DG4NXBS,VitalCore,Iron 365 Tablets,115.27,0.07,168.0,12.03
+VitalCore | Iron 365 Tablets | PT-2 | VitalCore Brand Cross PT | B08DG4NXBS,B08DG4NXBS,VitalCore,VitalCore Brand Cross PT,59.47,0.04,168.0,6.21
+VitalCore | Iron 365 Tablets | SQP Exact 1 | B08DG4NXBS,B08DG4NXBS,VitalCore,SQP Exact 1,84.21,0.05,168.0,8.79
+VitalCore | Iron 365 Tablets | SQP Exact 2 | B08DG4NXBS,B08DG4NXBS,VitalCore,SQP Exact 2,77.17,0.048,168.0,8.06
+VitalCore | Vitamin D3 K2 4000 iu | PHRASE |B08DG68P6B,B08DG68P6B,VitalCore,PHRASE,68.07,0.02,105.0,1.93
+VitalCore | Vitamin D3 K2 4000 iu | SQP | Exact |B08DG68P6B,B08DG68P6B,VitalCore,Exact,14.13,0.0038,105.0,0.4
+VitalCore| Vitamin D3 K2 4000 iu | CT |B08DG68P6B,B08DG68P6B,VitalCore,CT,193.55,0.05,105.0,5.48
+VitalCore|Vitamin D3 K2 4000 iu |  2KAG 2  |B08DG68P6B,B08DG68P6B,VitalCore,2KAG 2,725.11,0.2,105.0,20.53
+VitalCore|Vitamin D3 K2 4000 iu |  Exact 2 |B08DG68P6B,B08DG68P6B,VitalCore,Exact 2,387.29,0.1,105.0,10.96
+VitalCore|Vitamin D3 K2 4000 iu | AUTO |B08DG68P6B,B08DG68P6B,VitalCore,AUTO,5.71,0.0,105.0,0.16
+VitalCore|Vitamin D3 K2 4000 iu | BROAD |B08DG68P6B,B08DG68P6B,VitalCore,BROAD,189.7,0.05,105.0,5.37
+VitalCore|Vitamin D3 K2 4000 iu | Exact |B08DG68P6B,B08DG68P6B,VitalCore,Exact,609.78,0.16,105.0,17.26
+VitalCore|Vitamin D3 K2 4000 iu | EXACT -1 |B08DG68P6B,B08DG68P6B,VitalCore,EXACT -1,10.42,0.0,105.0,0.29
+VitalCore|Vitamin D3 K2 4000 iu | PT 2 |B08DG68P6B,B08DG68P6B,VitalCore,PT 2,41.68,0.01,105.0,1.18
+VitalCore|Vitamin D3 K2 4000 iu | PT 3 |B08DG68P6B,B08DG68P6B,VitalCore,PT 3,22.44,0.01,105.0,0.64
+VitalCore|Vitamin D3 K2 4000 iu | PT-1 |B08DG68P6B,B08DG68P6B,VitalCore,PT-1,1441.48,0.39,105.0,40.8
+VitalCore | VITAMIN B COMPLEX | 2KAG | B08GG6TPN6,B08GG6TPN6,VitalCore,2KAG,31.71,0.01,326.0,3.15
+VitalCore | VITAMIN B COMPLEX | 3KAG | B08GG6TPN6,B08GG6TPN6,VitalCore,3KAG,939.5,0.29,326.0,93.21
+VitalCore | VITAMIN B COMPLEX | AUTO | B08GG6TPN6,B08GG6TPN6,VitalCore,AUTO,139.01,0.04,326.0,13.79
+VitalCore | VITAMIN B COMPLEX | Broad| B08GG6TPN6,B08GG6TPN6,VitalCore,Broad,0.0,0.0,326.0,0.0
+VitalCore | VITAMIN B COMPLEX | CT| B08GG6TPN6,B08GG6TPN6,VitalCore,CT,16.65,0.01,326.0,1.65
+VitalCore | VITAMIN B COMPLEX | Exact - Acide Folique | B08GG6TPN6,B08GG6TPN6,VitalCore,Exact - Acide Folique,22.11,0.01,326.0,2.19
+VitalCore | VITAMIN B COMPLEX | Exact - B Vitamins | B08GG6TPN6,B08GG6TPN6,VitalCore,Exact - B Vitamins,223.82,0.07,326.0,22.2
+VitalCore | VITAMIN B COMPLEX | Exact - Brand KW | B08GG6TPN6,B08GG6TPN6,VitalCore,Exact - Brand KW,5.91,0.0018,326.0,0.59
+VitalCore | VITAMIN B COMPLEX | Exact - Multivitamin | B08GG6TPN6,B08GG6TPN6,VitalCore,Exact - Multivitamin,21.82,0.01,326.0,2.16
+VitalCore | VITAMIN B COMPLEX | Exact | vitamine b complex | B08GG6TPN6,B08GG6TPN6,VitalCore,vitamine b complex,755.12,0.23,326.0,74.91
+VitalCore | VITAMIN B COMPLEX | HERO PT - Single  | B08GG6TPN6,B08GG6TPN6,VitalCore,HERO PT - Single,13.64,0.0,326.0,1.35
+VitalCore | VITAMIN B COMPLEX | Phrase | B08GG6TPN6,B08GG6TPN6,VitalCore,Phrase,182.85,0.06,326.0,18.14
+VitalCore | VITAMIN B COMPLEX | PT - Vitamin B12 | B08GG6TPN6,B08GG6TPN6,VitalCore,PT - Vitamin B12,29.24,0.01,326.0,2.9
+VitalCore | VITAMIN B COMPLEX | PT 2 | B08GG6TPN6,B08GG6TPN6,VitalCore,PT 2,127.89,0.04,326.0,12.69
+VitalCore | VITAMIN B COMPLEX | PT -Capsule | B08GG6TPN6,B08GG6TPN6,VitalCore,PT -Capsule,51.63,0.02,326.0,5.12
+VitalCore | VITAMIN B COMPLEX | PT-Tablet | B08GG6TPN6,B08GG6TPN6,VitalCore,PT-Tablet,56.27,0.02,326.0,5.58
+VitalCore | VITAMIN B COMPLEX | SELF PT| B08GG6TPN6,B08GG6TPN6,VitalCore,SELF PT,584.87,0.18,326.0,58.02
+VitalCore | VITAMIN B COMPLEX | Vitamin Exact | B08GG6TPN6,B08GG6TPN6,VitalCore,Vitamin Exact,83.95,0.03,326.0,8.33
+VitalCore | Vitamin B12 | 2 PT | B08GG96FPL,B08GG96FPL,VitalCore,2 PT,19.11,0.0041,309.0,1.26
+VitalCore | VITAMIN B12 | 2KAG |B08GG96FPL,B08GG96FPL,VitalCore,2KAG,23.3,0.0,309.0,1.54
+VitalCore | Vitamin B12 | Auto New | B08GG96FPL,B08GG96FPL,VitalCore,Auto New,77.0,0.02,309.0,5.09
+VitalCore | Vitamin B12 | Broad | vitamine b12 | B08GG96FPL,B08GG96FPL,VitalCore,vitamine b12,72.02,0.02,309.0,4.76
+VitalCore | Vitamin B12 | Broad Modifier | B08GG96FPL,B08GG96FPL,VitalCore,Broad Modifier,138.14,0.03,309.0,9.12
+VitalCore | Vitamin B12 | EXACT-2 | B08GG96FPL,B08GG96FPL,VitalCore,EXACT-2,194.77,0.04,309.0,12.86
+VitalCore | Vitamin B12 | Moved KW | B08GG96FPL,B08GG96FPL,VitalCore,Moved KW,74.61,0.0159,309.0,4.93
+VitalCore | Vitamin B12 | Phrase new | B08GG96FPL,B08GG96FPL,VitalCore,Phrase new,40.55,0.01,309.0,2.68
+VitalCore | Vitamin B12 | PT | B08GG96FPL,B08GG96FPL,VitalCore,PT,21.12,0.0,309.0,1.39
+VitalCore | Vitamin B12 | PT-New launch | B08GG96FPL,B08GG96FPL,VitalCore,PT-New launch,424.07,0.09,309.0,28.01
+VitalCore | Vitamin B12 | Self PT | B08GG96FPL,B08GG96FPL,VitalCore,Self PT,5.79,0.0,309.0,0.38
+VitalCore | Vitamin B12 | SKAG | b12 vitamine | B08GG96FPL,B08GG96FPL,VitalCore,b12 vitamine,129.33,0.03,309.0,8.54
+VitalCore | Vitamin B12 | SKAG | vitamine b12 | B08GG96FPL,B08GG96FPL,VitalCore,vitamine b12,3305.33,0.71,309.0,218.31
+VitalCore | Vitamin B12 | SQP | B08GG96FPL,B08GG96FPL,VitalCore,SQP,116.76,0.02,309.0,7.71
+VitalCore | Vitamin B12 |CT | B08GG96FPL,B08GG96FPL,VitalCore,CT,36.61,0.01,309.0,2.42
+VitalCore | Zinc | Phrase | B08GG9T6SW,B08GG9T6SW,VitalCore,Phrase,2913.09,0.74,385.0,284.3
+VitalCore | Zinc | PT - Bisglycinate | B08GG9T6SW,B08GG9T6SW,VitalCore,PT - Bisglycinate,1031.76,0.26,385.0,100.7
+VitalCore | Multivitamins & Minerals | CT | Main Cat. | B08HJPDMTR,B08HJPDMTR,VitalCore,Main Cat.,219.11,0.06,331.0,19.14
+VitalCore | Multivitamins & Minerals | CT to PT | from Main Category | B08HJPDMTR,B08HJPDMTR,VitalCore,from Main Category,1073.32,0.28,331.0,93.77
+VitalCore | Multivitamins & Minerals | Exact | multivitamines & Vitamine | B08HJPDMTR,B08HJPDMTR,VitalCore,multivitamines & Vitamine,532.87,0.14,331.0,46.56
+VitalCore | Multivitamins & Minerals | ingredient  Kws | Moved Exact | B08HJPDMTR,B08HJPDMTR,VitalCore,Moved Exact,99.0,0.03,331.0,8.65
+VitalCore | Multivitamins & Minerals | Phrase | B08HJPDMTR,B08HJPDMTR,VitalCore,Phrase,105.38,0.03,331.0,9.21
+VitalCore | Multivitamins & Minerals | PT | Nutravita | B08HJPDMTR,B08HJPDMTR,VitalCore,Nutravita,73.9,0.02,331.0,6.46
+VitalCore | Multivitamins & Minerals | PT- 2 | B08HJPDMTR,B08HJPDMTR,VitalCore,PT- 2,52.54,0.01,331.0,4.59
+VitalCore | Multivitamins & Minerals | PT-1  | B08HJPDMTR,B08HJPDMTR,VitalCore,PT-1,640.05,0.17,331.0,55.92
+VitalCore | Multivitamins & Minerals | Self - PT | B08HJPDMTR,B08HJPDMTR,VitalCore,Self - PT,476.6,0.13,331.0,41.64
+VitalCore | Multivitamins & Minerals | SKAG| multivitamins & minerals | B08HJPDMTR,B08HJPDMTR,VitalCore,multivitamins & minerals,387.1,0.1,331.0,33.82
+VitalCore | Multivitamins & Minerals | SQP | Broad|  B08HJPDMTR,B08HJPDMTR,VitalCore,Broad,128.7,0.03,331.0,11.24
+Medora  Multivitamin Kids Gummies 120 | 4 KAG | B08KJ9FZBC,B08KJ9FZBC,Medora  Multivitamin Kids Gummies 120,4 KAG,128.1,0.1361,135.0,18.38
+Medora | Multivitamin Kids Gummies 120 | Auto | B08KJ9FZBC,B08KJ9FZBC,Medora,Auto,247.88,0.26,135.0,35.56
+Medora | Multivitamin Kids Gummies 120 | CT : Main Category | 3 Ad Grp | B08KJ9FZBC,B08KJ9FZBC,Medora,3 Ad Grp,89.59,0.1,135.0,12.85
+Medora | Multivitamin Kids Gummies 120 | Exact 1 | B08KJ9FZBC,B08KJ9FZBC,Medora,Exact 1,121.43,0.13,135.0,17.42
+Medora | Multivitamin Kids Gummies 120 | Self PT | U/D | B08KJ9FZBC,B08KJ9FZBC,Medora,U/D,246.65,0.26,135.0,35.38
+Medora | Multivitamin Kids Gummies 120 | SQP | U/D | Broad | B08KJ9FZBC,B08KJ9FZBC,Medora,Broad,107.44,0.11,135.0,15.41
+PawVista Anti Intestinal Worms Dog | CT | B08KRSRFGK,B08KRSRFGK,PawVista Anti Intestinal Worms Dog,CT,14.75,0.01,100.0,0.57
+PawVista Anti Intestinal Worms Dog | PT From CT | B08KRSRFGK,B08KRSRFGK,PawVista Anti Intestinal Worms Dog,PT From CT,46.82,0.018,100.0,1.8
+PawVista Anti Intestinal Worms Dog | PTFA | B08KRSRFGK,B08KRSRFGK,PawVista Anti Intestinal Worms Dog,PTFA,59.32,0.02,100.0,2.28
+PawVista Wormwood Advanced Liquid | Anti puces PT | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Anti puces PT,11.04,0.0,100.0,0.43
+PawVista Wormwood Advanced Liquid | Auto - New | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Auto - New,150.24,0.06,100.0,5.79
+PawVista Wormwood Advanced Liquid | Broad | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Broad,105.0,0.04,100.0,4.04
+PawVista Wormwood Advanced Liquid | Moved | EFB | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,EFB,340.72,0.13,100.0,13.12
+PawVista Wormwood Advanced Liquid | Moved | PT | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,PT,74.33,0.03,100.0,2.86
+PawVista Wormwood Advanced Liquid | Moved | SKAG | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,SKAG,773.66,0.3,100.0,29.8
+PawVista Wormwood Advanced Liquid | Phrase - 1 | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Phrase - 1,17.45,0.0067,100.0,0.67
+PawVista Wormwood Advanced Liquid | Self - PT | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Self - PT,155.83,0.06,100.0,6.0
+PawVista Wormwood Advanced Liquid | Top Exact | B08KRSRFGK,B08KRSRFGK,PawVista Wormwood Advanced Liquid,Top Exact,846.91,0.33,100.0,32.62
+VitalCore | Liposomal Capsules | 2-PT | B08PKYTQSL,B08PKYTQSL,VitalCore,2-PT,83.93,0.03,380.0,10.01
+VitalCore | Liposomal Capsules | Auto 2.0 | B08PKYTQSL,B08PKYTQSL,VitalCore,Auto 2.0,40.46,0.01,380.0,4.83
+VitalCore | Liposomal Capsules | Broad | B08PKYTQSL,B08PKYTQSL,VitalCore,Broad,75.09,0.02,380.0,8.96
+VitalCore | Liposomal Capsules | CT new | B08PKYTQSL,B08PKYTQSL,VitalCore,CT new,62.19,0.02,380.0,7.42
+VitalCore | Liposomal Capsules | Moved Kw | B08PKYTQSL,B08PKYTQSL,VitalCore,Moved Kw,272.42,0.09,380.0,32.51
+VitalCore | Liposomal Capsules | New-Phrase | B08PKYTQSL,B08PKYTQSL,VitalCore,New-Phrase,69.96,0.02,380.0,8.35
+VitalCore | Liposomal Capsules | New-PT | B08PKYTQSL,B08PKYTQSL,VitalCore,New-PT,209.7,0.07,380.0,25.02
+VitalCore | Liposomal Capsules | other form PT | B08PKYTQSL,B08PKYTQSL,VitalCore,other form PT,0.66,0.0,380.0,0.08
+VitalCore | Liposomal Capsules | PT 1 | B08PKYTQSL,B08PKYTQSL,VitalCore,PT 1,0.0,0.0,380.0,0.0
+VitalCore | Liposomal Capsules | Self PT | B08PKYTQSL,B08PKYTQSL,VitalCore,Self PT,116.75,0.0367,380.0,13.93
+VitalCore | Liposomal Capsules | SKAG | vitamine c liposomale | B08PKYTQSL,B08PKYTQSL,VitalCore,vitamine c liposomale,1293.36,0.41,380.0,154.33
+VitalCore | Liposomal Capsules | SKAG |Vitamine C| B08PKYTQSL,B08PKYTQSL,VitalCore,Vitamine C,775.84,0.2436,380.0,92.58
+VitalCore | Liposomal Capsules |Exact | B08PKYTQSL,B08PKYTQSL,VitalCore,Exact,184.21,0.06,380.0,21.98
+VitalCore | Mushroom Complex | Auto-CM | B08PVZM37H,B08PVZM37H,VitalCore,Auto-CM,35.04,0.04,44.0,1.73
+VitalCore | Mushroom Complex | Broad | B08PVZM37H,B08PVZM37H,VitalCore,Broad,24.85,0.03,44.0,1.23
+VitalCore | Mushroom Complex | CT | B08PVZM37H,B08PVZM37H,VitalCore,CT,25.54,0.03,44.0,1.26
+VitalCore | Mushroom Complex | EFA-1 | B08PVZM37H,B08PVZM37H,VitalCore,EFA-1,2.6,0.0,44.0,0.13
+VitalCore | Mushroom Complex | EFB | B08PVZM37H,B08PVZM37H,VitalCore,EFB,5.1,0.01,44.0,0.25
+VitalCore | Mushroom Complex | Exact | B08PVZM37H,B08PVZM37H,VitalCore,Exact,76.7,0.09,44.0,3.79
+VitalCore | Mushroom Complex | Main Exact | B08PVZM37H,B08PVZM37H,VitalCore,Main Exact,184.8,0.21,44.0,9.12
+VitalCore | Mushroom Complex | New-Phrase | B08PVZM37H,B08PVZM37H,VitalCore,New-Phrase,69.11,0.08,44.0,3.41
+VitalCore | Mushroom Complex | PT | B08PVZM37H,B08PVZM37H,VitalCore,PT,450.6,0.51,44.0,22.25
+VitalCore | Mushroom Complex | PT-Self | B08PVZM37H,B08PVZM37H,VitalCore,PT-Self,16.85,0.02,44.0,0.83
+PawVista | Lysine Powder | Broad | B08QNHTFCH,B08QNHTFCH,PawVista,Broad,20.17,0.05,72.0,3.45
+PawVista | Lysine Powder | CT | B08QNHTFCH,B08QNHTFCH,PawVista,CT,25.33,0.0601,72.0,4.33
+PawVista | Lysine Powder | EXACT | B08QNHTFCH,B08QNHTFCH,PawVista,EXACT,9.43,0.02,72.0,1.61
+PawVista | Lysine Powder | Phrase | B08QNHTFCH,B08QNHTFCH,PawVista,Phrase,36.3,0.09,72.0,6.2
+PawVista | Lysine Powder | PT | B08QNHTFCH,B08QNHTFCH,PawVista,PT,147.07,0.35,72.0,25.13
+PawVista | Lysine Powder | SELF PT | B08QNHTFCH,B08QNHTFCH,PawVista,SELF PT,2.0,0.0,72.0,0.34
+PawVista | Lysine Powder | SKAG | B08QNHTFCH,B08QNHTFCH,PawVista,SKAG,144.78,0.34,72.0,24.74
+PawVista | Lysine Powder | VitalCore PT | B08QNHTFCH,B08QNHTFCH,PawVista,VitalCore PT,36.29,0.09,72.0,6.2
+VitalCore | Cranberry + Vitamin C  | New Auto | B08RRZPPNP,B08RRZPPNP,VitalCore,New Auto,1.9,0.0,38.0,0.12
+VitalCore | Cranberry + Vitamin C | 3KAG | B08RRZPPNP,B08RRZPPNP,VitalCore,3KAG,14.09,0.02,38.0,0.9
+VitalCore | Cranberry + Vitamin C | Benefits Exact | B08RRZPPNP,B08RRZPPNP,VitalCore,Benefits Exact,16.06,0.03,38.0,1.03
+VitalCore | Cranberry + Vitamin C | Broad | B08RRZPPNP,B08RRZPPNP,VitalCore,Broad,48.83,0.08,38.0,3.13
+VitalCore | Cranberry + Vitamin C | CT | B08RRZPPNP,B08RRZPPNP,VitalCore,CT,38.57,0.07,38.0,2.47
+VitalCore | Cranberry + Vitamin C | Exact 1 | B08RRZPPNP,B08RRZPPNP,VitalCore,Exact 1,131.6,0.22,38.0,8.44
+VitalCore | Cranberry + Vitamin C | Exact- 2 | B08RRZPPNP,B08RRZPPNP,VitalCore,Exact- 2,207.42,0.35,38.0,13.3
+VitalCore | Cranberry + Vitamin C | New PT | B08RRZPPNP,B08RRZPPNP,VitalCore,New PT,42.77,0.07,38.0,2.74
+VitalCore | Cranberry + Vitamin C | Phrase | B08RRZPPNP,B08RRZPPNP,VitalCore,Phrase,18.74,0.03,38.0,1.2
+VitalCore | Cranberry + Vitamin C | PT 1 | B08RRZPPNP,B08RRZPPNP,VitalCore,PT 1,20.26,0.0342,38.0,1.3
+VitalCore | Cranberry + Vitamin C | PT-2 | B08RRZPPNP,B08RRZPPNP,VitalCore,PT-2,11.96,0.02,38.0,0.77
+VitalCore | Cranberry + Vitamin C | PT-VitalCore | B08RRZPPNP,B08RRZPPNP,VitalCore,PT-VitalCore,4.59,0.01,38.0,0.29
+VitalCore | Cranberry + Vitamin C | Self PT | B08RRZPPNP,B08RRZPPNP,VitalCore,Self PT,35.7,0.06,38.0,2.29
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | AUTO | B08TCG2RH7",B08TCG2RH7,VitalCore,AUTO,148.07,0.03,445.0,11.19
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | BR - Mag & zinc | B08TCG2RH7",B08TCG2RH7,VitalCore,BR - Mag & zinc,615.66,0.1,445.0,46.53
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | CT - kws | B08TCG2RH7",B08TCG2RH7,VitalCore,CT - kws,71.41,0.01,445.0,5.4
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | Ex - Mag & zinc | B08TCG2RH7",B08TCG2RH7,VitalCore,Ex - Mag & zinc,1055.29,0.18,445.0,79.76
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | Exact | B08TCG2RH7",B08TCG2RH7,VitalCore,Exact,1914.76,0.33,445.0,144.72
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | Phrase | B08TCG2RH7",B08TCG2RH7,VitalCore,Phrase,47.01,0.01,445.0,3.55
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | PT | B08TCG2RH7",B08TCG2RH7,VitalCore,PT,305.68,0.05,445.0,23.1
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | PT Cross | B08TCG2RH7",B08TCG2RH7,VitalCore,PT Cross,56.06,0.01,445.0,4.24
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | PT-Self New| B08TCG2RH7",B08TCG2RH7,VitalCore,PT-Self New,19.68,0.0,445.0,1.49
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D - 400 Tablets | SKAG ZMA | B08TCG2RH7",B08TCG2RH7,VitalCore,SKAG ZMA,336.21,0.0571,445.0,25.41
+"VitalCore | Calcium, Magnesium, Zinc, Vitamin D | Broad | B08TCG2RH7",B08TCG2RH7,VitalCore,Broad,188.57,0.03,445.0,14.25
+"VitalCore | Calcuim, Magnesium & Zinc  | CT Calcium | B08TCG2RH7",B08TCG2RH7,VitalCore,CT Calcium,23.0,0.0,445.0,1.74
+"VitalCore | Calcuim, Magnesium & Zinc  | CT Mag | B08TCG2RH7",B08TCG2RH7,VitalCore,CT Mag,81.24,0.01,445.0,6.14
+"VitalCore | Calcuim, Magnesium & Zinc  | CT Mag to PT | B08TCG2RH7",B08TCG2RH7,VitalCore,CT Mag to PT,965.06,0.16,445.0,72.94
+"VitalCore | Calcuim, Magnesium & Zinc  |Exact & EFP | B08TCG2RH7",B08TCG2RH7,VitalCore,Exact & EFP,56.77,0.01,445.0,4.29
+"VitalCore | Calcuim, Magnesium & Zinc | CT Zinc | B08TCG2RH7",B08TCG2RH7,VitalCore,CT Zinc,3.21,0.0,445.0,0.24
+VitalCore | NAC | AUTO NEW | B091FT9L27,B091FT9L27,VitalCore,AUTO NEW,17.69,0.01,178.0,2.43
+VitalCore | NAC | Broad | B091FT9L27,B091FT9L27,VitalCore,Broad,11.62,0.01,178.0,1.6
+VitalCore | NAC | CT | B091FT9L27,B091FT9L27,VitalCore,CT,136.13,0.1051,178.0,18.71
+VitalCore | NAC | MAIN EXACT | B091FT9L27,B091FT9L27,VitalCore,MAIN EXACT,843.61,0.65,178.0,115.93
+VitalCore | NAC | Moved EX | B091FT9L27,B091FT9L27,VitalCore,Moved EX,8.12,0.01,178.0,1.12
+VitalCore | NAC | NEW EXACT | B091FT9L27,B091FT9L27,VitalCore,NEW EXACT,96.92,0.07,178.0,13.32
+VitalCore | NAC | PHRASE | B091FT9L27,B091FT9L27,VitalCore,PHRASE,41.8,0.03,178.0,5.74
+VitalCore | NAC | PT - New | B091FT9L27,B091FT9L27,VitalCore,PT - New,56.21,0.04,178.0,7.72
+VitalCore | NAC | PT | B091FT9L27,B091FT9L27,VitalCore,PT,9.19,0.01,178.0,1.26
+VitalCore | NAC | PT 2 | B091FT9L27,B091FT9L27,VitalCore,PT 2,5.34,0.0,178.0,0.73
+VitalCore | NAC | Self - PT | B091FT9L27,B091FT9L27,VitalCore,Self - PT,65.8,0.05,178.0,9.04
+VitalCore | NAC | Single PT (Bandini) | B091FT9L27,B091FT9L27,VitalCore,Single PT (Bandini),2.89,0.0022,178.0,0.4
+VitalCore | Vitamin D3 K2 2000 iu | 2KAG | B091GB1NP1,B091GB1NP1,VitalCore,2KAG,1890.67,0.48,352.0,168.97
+VitalCore | Vitamin D3 K2 2000 iu | Auto | B091GB1NP1,B091GB1NP1,VitalCore,Auto,134.72,0.03,352.0,12.04
+VitalCore | Vitamin D3 K2 2000 iu | BA EXACT | B091GB1NP1,B091GB1NP1,VitalCore,BA EXACT,194.52,0.05,352.0,17.38
+VitalCore | Vitamin D3 K2 2000 iu | BROAD | B091GB1NP1,B091GB1NP1,VitalCore,BROAD,329.6,0.08,352.0,29.46
+VitalCore | Vitamin D3 K2 2000 iu | EXACT | B091GB1NP1,B091GB1NP1,VitalCore,EXACT,4.72,0.0,352.0,0.42
+VitalCore | Vitamin D3 K2 2000 iu | EXACT-1 | B091GB1NP1,B091GB1NP1,VitalCore,EXACT-1,1149.43,0.29,352.0,102.73
+VitalCore | Vitamin D3 K2 2000 iu | PT 3 | B091GB1NP1,B091GB1NP1,VitalCore,PT 3,48.83,0.01,352.0,4.36
+VitalCore | Vitamin D3 K2 2000 iu | PT| B091GB1NP1,B091GB1NP1,VitalCore,PT,186.14,0.05,352.0,16.64
+VitalCore | Astaxanthin 12mg 180 Softgels | 2KAG | B0924NLC1W,B0924NLC1W,VitalCore,2KAG,480.13,0.73,81.0,58.93
+VitalCore | Astaxanthin 12mg 180 Softgels | Auto | B0924NLC1W,B0924NLC1W,VitalCore,Auto,12.52,0.019,81.0,1.54
+VitalCore | Astaxanthin 12mg 180 Softgels | BROAD | B0924NLC1W,B0924NLC1W,VitalCore,BROAD,7.75,0.01,81.0,0.95
+VitalCore | Astaxanthin 12mg 180 Softgels | EXACT 1 | B0924NLC1W,B0924NLC1W,VitalCore,EXACT 1,10.49,0.02,81.0,1.29
+VitalCore | Astaxanthin 12mg 180 Softgels | Moved Exact | B0924NLC1W,B0924NLC1W,VitalCore,Moved Exact,20.19,0.03,81.0,2.48
+VitalCore | Astaxanthin 12mg 180 Softgels | PHRASE | B0924NLC1W,B0924NLC1W,VitalCore,PHRASE,11.95,0.02,81.0,1.47
+VitalCore | Astaxanthin 12mg 180 Softgels | PT - 1 | B0924NLC1W,B0924NLC1W,VitalCore,PT - 1,17.4,0.0264,81.0,2.14
+VitalCore | Astaxanthin 12mg 180 Softgels | PT - New | B0924NLC1W,B0924NLC1W,VitalCore,PT - New,1.25,0.0,81.0,0.15
+VitalCore | Astaxanthin 12mg 180 Softgels | PT| B0924NLC1W,B0924NLC1W,VitalCore,PT,6.49,0.01,81.0,0.8
+VitalCore | Astaxanthin 12mg 180 Softgels | SELF PT | B0924NLC1W,B0924NLC1W,VitalCore,SELF PT,51.45,0.08,81.0,6.32
+VitalCore | Astaxanthin 12mg 180 Softgels | SQP | Exact | B0924NLC1W,B0924NLC1W,VitalCore,Exact,40.3,0.06,81.0,4.95
+VitalCore | Creatine Tablet |  Auto : New | B0924PFYN9,B0924PFYN9,VitalCore,Auto : New,28.51,0.01,214.0,1.17
+VitalCore | Creatine Tablet | 3KAG | B0924PFYN9,B0924PFYN9,VitalCore,3KAG,1762.98,0.34,214.0,72.05
+VitalCore | Creatine Tablet | Moved Exact | B0924PFYN9,B0924PFYN9,VitalCore,Moved Exact,16.18,0.0,214.0,0.66
+VitalCore | Creatine Tablet | PT- Tablet and Gelules | B0924PFYN9,B0924PFYN9,VitalCore,PT- Tablet and Gelules,715.89,0.14,214.0,29.26
+VitalCore| Cratine Tablet | Powder PT-1 | B0924PFYN9,B0924PFYN9,VitalCore,Powder PT-1,105.01,0.02,214.0,4.29
+VitalCore| Cratine Tablet | Powder PT-2 | B0924PFYN9,B0924PFYN9,VitalCore,Powder PT-2,12.64,0.0,214.0,0.52
+VitalCore| Cratine Tablet | Single PT | Powder |B0924PFYN9,B0924PFYN9,VitalCore,Powder,420.0,0.08,214.0,17.16
+VitalCore| Creatine Tablet | SKAG |B0924PFYN9,B0924PFYN9,VitalCore,SKAG,2152.35,0.411,214.0,87.96
+VitalCore| Creatine Tablet | SQP | Broad | B0924PFYN9,B0924PFYN9,VitalCore,Broad,22.85,0.0,214.0,0.93
+VitalCore | Selenium | AUTO | B0924Q1H5X,B0924Q1H5X,VitalCore,AUTO,15.01,0.02,123.0,1.99
+VitalCore | Selenium | Broad | B0924Q1H5X,B0924Q1H5X,VitalCore,Broad,26.82,0.03,123.0,3.56
+VitalCore | Selenium | Exact | B0924Q1H5X,B0924Q1H5X,VitalCore,Exact,35.05,0.0379,123.0,4.66
+VitalCore | Selenium | Moved EX | B0924Q1H5X,B0924Q1H5X,VitalCore,Moved EX,86.89,0.09,123.0,11.55
+VitalCore | Selenium | New - PT | B0924Q1H5X,B0924Q1H5X,VitalCore,New - PT,24.4,0.03,123.0,3.24
+VitalCore | Selenium | Phrase new | B0924Q1H5X,B0924Q1H5X,VitalCore,Phrase new,0.0,0.0,123.0,0.0
+VitalCore | Selenium | PT | B0924Q1H5X,B0924Q1H5X,VitalCore,PT,10.39,0.01,123.0,1.38
+VitalCore | Selenium | Self PT | B0924Q1H5X,B0924Q1H5X,VitalCore,Self PT,131.9,0.14,123.0,17.53
+VitalCore | Selenium | SKAG | B0924Q1H5X,B0924Q1H5X,VitalCore,SKAG,531.54,0.57,123.0,70.64
+VitalCore | Selenium | SP CT | B0924Q1H5X,B0924Q1H5X,VitalCore,SP CT,63.52,0.07,123.0,8.44
+VitalCore  | Iodine | PT Self | B0924Q6VTF,B0924Q6VTF,VitalCore,PT Self,163.69,0.1,104.0,10.05
+VitalCore | Iodine | AUTO | B0924Q6VTF,B0924Q6VTF,VitalCore,AUTO,128.03,0.08,104.0,7.86
+VitalCore | Iodine | Moved EX | B0924Q6VTF,B0924Q6VTF,VitalCore,Moved EX,166.0,0.1,104.0,10.2
+VitalCore | Iodine | New EXACT | B0924Q6VTF,B0924Q6VTF,VitalCore,New EXACT,9.85,0.01,104.0,0.6
+VitalCore | Iodine | Phrase | B0924Q6VTF,B0924Q6VTF,VitalCore,Phrase,68.25,0.04,104.0,4.19
+VitalCore| Iodine | Broad | B0924Q6VTF,B0924Q6VTF,VitalCore,Broad,216.95,0.1281,104.0,13.33
+VitalCore| Iodine | CT | B0924Q6VTF,B0924Q6VTF,VitalCore,CT,90.4,0.05,104.0,5.55
+VitalCore| Iodine | EXACT-2 | B0924Q6VTF,B0924Q6VTF,VitalCore,EXACT-2,243.38,0.14,104.0,14.95
+VitalCore| Iodine | PT - New | B0924Q6VTF,B0924Q6VTF,VitalCore,PT - New,41.61,0.02,104.0,2.56
+VitalCore| Iodine | PT | B0924Q6VTF,B0924Q6VTF,VitalCore,PT,47.18,0.03,104.0,2.9
+VitalCore| Iodine | SKAG | B0924Q6VTF,B0924Q6VTF,VitalCore,SKAG,517.89,0.31,104.0,31.81
+VitalCore | Pro Bio Culture Complex 120 capsules | Auto | B092Q8SGPT,B092Q8SGPT,VitalCore,Auto,58.26,0.01,189.0,2.43
+VitalCore | Pro Bio Culture Complex 120 capsules | Broad  | B092Q8SGPT,B092Q8SGPT,VitalCore,Broad,29.62,0.01,189.0,1.23
+VitalCore | Pro Bio Culture Complex 120 capsules | Broad Modifier 2 KWs | B092Q8SGPT,B092Q8SGPT,VitalCore,Broad Modifier 2 KWs,39.05,0.01,189.0,1.63
+VitalCore | Pro Bio Culture Complex 120 capsules | CT | B092Q8SGPT,B092Q8SGPT,VitalCore,CT,970.31,0.21,189.0,40.43
+VitalCore | Pro Bio Culture Complex 120 capsules | exact | B092Q8SGPT,B092Q8SGPT,VitalCore,exact,1461.94,0.32,189.0,60.92
+VitalCore | Pro Bio Culture Complex 120 capsules | Moved PT from CT | B092Q8SGPT,B092Q8SGPT,VitalCore,Moved PT from CT,2.55,0.0,189.0,0.11
+VitalCore | Pro Bio Culture Complex 120 capsules | Moved PT From CT| B092Q8SGPT,B092Q8SGPT,VitalCore,Moved PT From CT,26.04,0.01,189.0,1.09
+VitalCore | Pro Bio Culture Complex 120 capsules | PT new | B092Q8SGPT,B092Q8SGPT,VitalCore,PT new,126.43,0.0279,189.0,5.27
+VitalCore | Pro Bio Culture Complex 120 capsules | PT Nutri&Co. | B092Q8SGPT,B092Q8SGPT,VitalCore,PT Nutri&Co.,44.67,0.01,189.0,1.86
+VitalCore | Pro Bio Culture Complex 120 capsules | PT-New | B092Q8SGPT,B092Q8SGPT,VitalCore,PT-New,20.59,0.0,189.0,0.86
+VitalCore | Pro Bio Culture Complex 120 capsules | PT-self | B092Q8SGPT,B092Q8SGPT,VitalCore,PT-self,143.87,0.03,189.0,6.0
+VitalCore | Pro Bio Culture Complex 120 capsules | SKAG | U/D | B092Q8SGPT,B092Q8SGPT,VitalCore,U/D,1518.44,0.33,189.0,63.27
+VitalCore | Pro Bio Culture Complex 120 capsules | SQP & Exact 2 | B092Q8SGPT,B092Q8SGPT,VitalCore,SQP & Exact 2,93.89,0.02,189.0,3.91
+VitalCore | Choline | AUTO | B093SND46D,B093SND46D,VitalCore,AUTO,68.01,0.24,162.0,38.57
+VitalCore | Choline | CT | B093SND46D,B093SND46D,VitalCore,CT,10.07,0.04,162.0,5.71
+VitalCore | Choline | Exact | B093SND46D,B093SND46D,VitalCore,Exact,30.88,0.11,162.0,17.51
+VitalCore | Choline | Phrase | B093SND46D,B093SND46D,VitalCore,Phrase,36.43,0.1275,162.0,20.66
+VitalCore | Choline | PT-2 | B093SND46D,B093SND46D,VitalCore,PT-2,5.57,0.02,162.0,3.16
+VitalCore | Choline | Self PT | B093SND46D,B093SND46D,VitalCore,Self PT,16.65,0.06,162.0,9.44
+VitalCore | Choline | SKAG | B093SND46D,B093SND46D,VitalCore,SKAG,118.04,0.41,162.0,66.94
+VitalCore | Iron Gummies | 2KAG | B098QJPDGL,B098QJPDGL,VitalCore,2KAG,21.06,0.0226,57.0,1.29
+VitalCore | Iron Gummies | Auto New | B098QJPDGL,B098QJPDGL,VitalCore,Auto New,3.53,0.0,57.0,0.22
+VitalCore | Iron Gummies | Broad | B098QJPDGL,B098QJPDGL,VitalCore,Broad,58.56,0.06,57.0,3.59
+VitalCore | Iron gummies | CT Fer | B098QJPDGL,B098QJPDGL,VitalCore,CT Fer,151.59,0.16,57.0,9.29
+VitalCore | Iron Gummies | Exact-1 | B098QJPDGL,B098QJPDGL,VitalCore,Exact-1,181.81,0.2,57.0,11.14
+VitalCore | Iron Gummies | New PT | B098QJPDGL,B098QJPDGL,VitalCore,New PT,64.41,0.07,57.0,3.95
+VitalCore | Iron Gummies | Phrase | B098QJPDGL,B098QJPDGL,VitalCore,Phrase,26.44,0.0284,57.0,1.62
+VitalCore | Iron Gummies | PT-1 | B098QJPDGL,B098QJPDGL,VitalCore,PT-1,239.57,0.26,57.0,14.68
+VitalCore | Iron Gummies | PT-2 | B098QJPDGL,B098QJPDGL,VitalCore,PT-2,53.77,0.06,57.0,3.29
+VitalCore | Iron Gummies | PT-self | B098QJPDGL,B098QJPDGL,VitalCore,PT-self,12.01,0.01,57.0,0.74
+VitalCore | Iron Gummies | SKAG | B098QJPDGL,B098QJPDGL,VitalCore,SKAG,117.52,0.13,57.0,7.2
+VitalCore | Melatonin 1.9mg | 2KAG | B09WJBLCR3,B09WJBLCR3,VitalCore,2KAG,1526.94,0.72,160.0,115.27
+VitalCore | Melatonin 1.9mg | Auto | B09WJBLCR3,B09WJBLCR3,VitalCore,Auto,29.46,0.01,160.0,2.22
+VitalCore | Melatonin 1.9mg | Phrase | B09WJBLCR3,B09WJBLCR3,VitalCore,Phrase,52.07,0.02,160.0,3.93
+VitalCore | Melatonin 1.9mg | PT 3 | B09WJBLCR3,B09WJBLCR3,VitalCore,PT 3,510.95,0.24,160.0,38.57
+VitalCore| Organic Blond Psyllium Capsules |  Auto | Close |B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Close,22.65,0.025,122.0,3.05
+VitalCore| Organic Blond Psyllium Capsules |  PT-1 | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,PT-1,10.24,0.01,122.0,1.38
+VitalCore| Organic Blond Psyllium Capsules |  PT-2 | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,PT-2,161.11,0.18,122.0,21.71
+VitalCore| Organic Blond Psyllium Capsules | 3KAG |B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,3KAG,242.22,0.27,122.0,32.65
+VitalCore| Organic Blond Psyllium Capsules | BROAD - Fiber | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,BROAD - Fiber,38.65,0.04,122.0,5.21
+VitalCore| Organic Blond Psyllium Capsules | BROAD | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,BROAD,103.69,0.11,122.0,13.98
+VitalCore| Organic Blond Psyllium Capsules | Exact-1 | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Exact-1,103.7,0.11,122.0,13.98
+VitalCore| Organic Blond Psyllium Capsules | Exact-2 |B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Exact-2,166.14,0.18,122.0,22.39
+VitalCore| Organic Blond Psyllium Capsules | PT-1 | Powder | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Powder,5.0,0.01,122.0,0.67
+VitalCore| Organic Blond Psyllium Capsules | Self PT |B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Self PT,41.27,0.05,122.0,5.56
+VitalCore|Organic Blond Psyllium Capsules | Phrase | B0B1QQNZ2S,B0B1QQNZ2S,VitalCore,Phrase,10.51,0.01,122.0,1.42
+VitalCore | Organic Turmeric-DE Label | 3KAG| B0B252QTL4,B0B252QTL4,VitalCore,3KAG,35.54,0.03,27.0,0.85
+VitalCore | Organic Turmeric-DE Label | AUTO | B0B252QTL4,B0B252QTL4,VitalCore,AUTO,16.88,0.02,27.0,0.41
+VitalCore | Organic Turmeric-DE Label | Broad | B0B252QTL4,B0B252QTL4,VitalCore,Broad,33.33,0.03,27.0,0.8
+VitalCore | Organic Turmeric-DE Label | CT | B0B252QTL4,B0B252QTL4,VitalCore,CT,18.56,0.02,27.0,0.45
+VitalCore | Organic Turmeric-DE Label | EXACT | B0B252QTL4,B0B252QTL4,VitalCore,EXACT,37.15,0.033,27.0,0.89
+VitalCore | Organic Turmeric-DE Label | Moved-EXACT | B0B252QTL4,B0B252QTL4,VitalCore,Moved-EXACT,726.66,0.65,27.0,17.45
+VitalCore | Organic Turmeric-DE Label | Phrase | B0B252QTL4,B0B252QTL4,VitalCore,Phrase,70.57,0.06,27.0,1.69
+VitalCore | Organic Turmeric-DE Label |PT - II| B0B252QTL4,B0B252QTL4,VitalCore,PT - II,59.56,0.05,27.0,1.43
+VitalCore | Organic Turmeric-DE Label |PT| B0B252QTL4,B0B252QTL4,VitalCore,PT,61.41,0.05,27.0,1.47
+VitalCore | Organic Turmeric-DE Label |Self - PT| B0B252QTL4,B0B252QTL4,VitalCore,Self - PT,35.83,0.03,27.0,0.86
+VitalCore | Organic Turmeric-DE Label |Single - PT| B0B252QTL4,B0B252QTL4,VitalCore,Single - PT,28.93,0.03,27.0,0.69
+VitalCore | Red Yeast Rice |  3KAG | B0B3RJ76ML,B0B3RJ76ML,VitalCore,3KAG,68.48,0.46,67.0,30.78
+VitalCore | Red Yeast Rice | Exact  - Cerebro | B0B3RJ76ML,B0B3RJ76ML,VitalCore,Exact  - Cerebro,0.0,0.0,67.0,0.0
+VitalCore | Red Yeast Rice | Exact - Benefits KWs | B0B3RJ76ML,B0B3RJ76ML,VitalCore,Exact - Benefits KWs,0.0,0.0,67.0,0.0
+VitalCore | Red Yeast Rice | Exact-1 | B0B3RJ76ML,B0B3RJ76ML,VitalCore,Exact-1,25.41,0.17,67.0,11.42
+VitalCore | Red Yeast Rice | New Auto | B0B3RJ76ML,B0B3RJ76ML,VitalCore,New Auto,6.0,0.04,67.0,2.7
+VitalCore | Red Yeast Rice | PT - 1 | B0B3RJ76ML,B0B3RJ76ML,VitalCore,PT - 1,0.0,0.0,67.0,0.0
+VitalCore | Red Yeast Rice | PT - New | B0B3RJ76ML,B0B3RJ76ML,VitalCore,PT - New,3.15,0.02,67.0,1.42
+VitalCore |Red Yeast Rice| Broad Modifier | B0B3RJ76ML,B0B3RJ76ML,VitalCore,Broad Modifier,3.36,0.02,67.0,1.51
+VitalCore |Red Yeast Rice| CT | B0B3RJ76ML,B0B3RJ76ML,VitalCore,CT,19.27,0.13,67.0,8.66
+VitalCore |Red Yeast Rice| Phrase | B0B3RJ76ML,B0B3RJ76ML,VitalCore,Phrase,5.4,0.04,67.0,2.43
+VitalCore |Red Yeast Rice| PT| B0B3RJ76ML,B0B3RJ76ML,VitalCore,PT,17.97,0.12,67.0,8.08
+VitalCore | Vitamin K2 | Auto | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,Auto,14.8,0.01,118.0,1.41
+VitalCore | Vitamin K2 | Broad | BA | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,BA,71.6,0.06,118.0,6.84
+VitalCore | Vitamin K2 | CT : Vitamin K1 | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,CT : Vitamin K1,23.5,0.02,118.0,2.24
+VitalCore | Vitamin K2 | Exact-1 | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,Exact-1,447.3,0.36,118.0,42.73
+VitalCore | Vitamin K2 | PT-1 | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,PT-1,30.9,0.03,118.0,2.95
+VitalCore | Vitamin K2 | PT-2 | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,PT-2,0.0,0.0,118.0,0.0
+VitalCore | Vitamin K2 | self PT | B0B6Q6PN1M,B0B6Q6PN1M,VitalCore,self PT,647.15,0.52,118.0,61.82
+VitalCore | Ginkgo Biloba 365 Tablets | 2KAG | B0B8SSJZVK,B0B8SSJZVK,VitalCore,2KAG,10.16,0.01,106.0,0.54
+VitalCore | Ginkgo Biloba 365 Tablets | 3KAG | B0B8SSJZVK,B0B8SSJZVK,VitalCore,3KAG,1010.65,0.51,106.0,53.93
+VitalCore | Ginkgo Biloba 365 Tablets | Auto | Ginkgo biloba | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Ginkgo biloba,176.0,0.09,106.0,9.39
+VitalCore | Ginkgo Biloba 365 Tablets | CT | Ginkgo biloba | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Ginkgo biloba,12.82,0.01,106.0,0.68
+VitalCore | Ginkgo Biloba 365 Tablets | Exact - powder | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Exact - powder,0.66,0.0,106.0,0.04
+VitalCore | Ginkgo Biloba 365 Tablets | EXACT - Tab | Ginkgo biloba | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Ginkgo biloba,2.9,0.0,106.0,0.15
+VitalCore | Ginkgo Biloba 365 Tablets | Exact-1 | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Exact-1,142.15,0.07,106.0,7.59
+VitalCore | Ginkgo Biloba 365 Tablets | Moved  | PT From CT  | B0B8SSJZVK,B0B8SSJZVK,VitalCore,PT From CT,50.49,0.03,106.0,2.69
+VitalCore | Ginkgo Biloba 365 Tablets | Phrase | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Phrase,69.08,0.03,106.0,3.69
+VitalCore | Ginkgo Biloba 365 Tablets | PT | B0B8SSJZVK,B0B8SSJZVK,VitalCore,PT,469.72,0.24,106.0,25.06
+VitalCore | Ginkgo Biloba 365 Tablets | PT | FBT/MBA | B0B8SSJZVK,B0B8SSJZVK,VitalCore,FBT/MBA,15.71,0.0079,106.0,0.84
+VitalCore | Ginkgo Biloba 365 Tablets | PTFA | B0B8SSJZVK,B0B8SSJZVK,VitalCore,PTFA,5.33,0.0,106.0,0.28
+VitalCore | Ginkgo Biloba 365 Tablets | Self - PT | Ginkgo biloba | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Ginkgo biloba,6.07,0.0,106.0,0.32
+VitalCore | Ginkgo Biloba 365 Tablets | SQP - EXACT| Ginkgo biloba | B0B8SSJZVK,B0B8SSJZVK,VitalCore,Ginkgo biloba,14.75,0.01,106.0,0.79
+VitalCore| Probiotic Gummies | AUTO | B0B8SWNKD7,B0B8SWNKD7,VitalCore,AUTO,14.57,0.06,73.0,4.41
+VitalCore| Probiotic Gummies | CT | B0B8SWNKD7,B0B8SWNKD7,VitalCore,CT,36.55,0.15,73.0,11.06
+VitalCore| Probiotic Gummies | PT 2 | B0B8SWNKD7,B0B8SWNKD7,VitalCore,PT 2,27.01,0.11,73.0,8.17
+VitalCore| Probiotic Gummies | Self PT | B0B8SWNKD7,B0B8SWNKD7,VitalCore,Self PT,7.61,0.03,73.0,2.3
+VitalCore| Probiotic Gummies |EXACT 2 | B0B8SWNKD7,B0B8SWNKD7,VitalCore,EXACT 2,155.58,0.64,73.0,47.06
+VitalCore | Milk thistle | 2 KAG | B0BSGZV1T9,B0BSGZV1T9,VitalCore,2 KAG,666.98,0.55,80.0,44.31
+VitalCore | Milk thistle | Auto-1 | B0BSGZV1T9,B0BSGZV1T9,VitalCore,Auto-1,47.77,0.04,80.0,3.17
+VitalCore | Milk thistle | Broad - Main Kws | B0BSGZV1T9,B0BSGZV1T9,VitalCore,Broad - Main Kws,122.83,0.102,80.0,8.16
+VitalCore | Milk thistle | Broad SQP | B0BSGZV1T9,B0BSGZV1T9,VitalCore,Broad SQP,9.17,0.01,80.0,0.61
+VitalCore | Milk thistle | EFB | B0BSGZV1T9,B0BSGZV1T9,VitalCore,EFB,6.14,0.01,80.0,0.41
+VitalCore | Milk thistle | Exact-1 | B0BSGZV1T9,B0BSGZV1T9,VitalCore,Exact-1,122.76,0.1,80.0,8.16
+VitalCore | Milk thistle | PT-1 | B0BSGZV1T9,B0BSGZV1T9,VitalCore,PT-1,138.21,0.11,80.0,9.18
+VitalCore | Milk thistle | PT-2 | B0BSGZV1T9,B0BSGZV1T9,VitalCore,PT-2,53.91,0.04,80.0,3.58
+VitalCore | Milk thistle | Self PT | B0BSGZV1T9,B0BSGZV1T9,VitalCore,Self PT,36.31,0.03,80.0,2.41
+VitalCore| Vitamin C and Zinc 180 Tablets | 2KAG | B0BX6195RG,B0BX6195RG,VitalCore,2KAG,150.31,0.31,50.0,15.36
+VitalCore| Vitamin C and Zinc 180 Tablets | Auto | B0BX6195RG,B0BX6195RG,VitalCore,Auto,11.31,0.02,50.0,1.16
+VitalCore| Vitamin C and Zinc 180 Tablets | BROAD | B0BX6195RG,B0BX6195RG,VitalCore,BROAD,72.36,0.15,50.0,7.39
+VitalCore| Vitamin C and Zinc 180 Tablets | CT | B0BX6195RG,B0BX6195RG,VitalCore,CT,114.39,0.23,50.0,11.69
+VitalCore| Vitamin C and Zinc 180 Tablets | EFA | B0BX6195RG,B0BX6195RG,VitalCore,EFA,82.48,0.1685,50.0,8.43
+VitalCore| Vitamin C and Zinc 180 Tablets | PHRASE | B0BX6195RG,B0BX6195RG,VitalCore,PHRASE,11.43,0.02,50.0,1.17
+VitalCore| Vitamin C and Zinc 180 Tablets | PT - Gummies | B0BX6195RG,B0BX6195RG,VitalCore,PT - Gummies,7.57,0.02,50.0,0.77
+VitalCore| Vitamin C and Zinc 180 Tablets | PT- Capsules | B0BX6195RG,B0BX6195RG,VitalCore,PT- Capsules,31.3,0.064,50.0,3.2
+VitalCore| Vitamin C and Zinc 180 Tablets | Self PT | B0BX6195RG,B0BX6195RG,VitalCore,Self PT,8.26,0.02,50.0,0.84
+MM | Omega 3-6-9 kids Gummies | AUTO | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,AUTO,6.21,0.02,107.0,2.45
+MM | Omega 3-6-9 kids Gummies | Exact | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,Exact,36.01,0.13,107.0,14.23
+MM | Omega 3-6-9 kids Gummies | Exact 1 | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,Exact 1,42.58,0.16,107.0,16.82
+MM | Omega 3-6-9 kids Gummies | kids PT | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,kids PT,89.86,0.33,107.0,35.5
+MM | Omega 3-6-9 kids Gummies | Phrase | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,Phrase,61.33,0.23,107.0,24.23
+MM | Omega 3-6-9 kids Gummies | Self - PT | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,Self - PT,11.63,0.04,107.0,4.59
+MM | Omega 3-6-9 kids Gummies | SKAG : Omega 3 Enfant | B0CB7ZDLXZ,B0CB7ZDLXZ,MM,SKAG : Omega 3 Enfant,23.21,0.09,107.0,9.17
+VitalCore | Lion's Mane Mushroom | 3KAG |B0CCP8GG6X,B0CCP8GG6X,VitalCore,3KAG,447.61,0.28,102.0,28.42
+VitalCore | Lion's Mane Mushroom | Auto 2.0 | B0CCP8GG6X,B0CCP8GG6X,VitalCore,Auto 2.0,34.59,0.02,102.0,2.2
+VitalCore | Lion's Mane Mushroom | BROAD |B0CCP8GG6X,B0CCP8GG6X,VitalCore,BROAD,12.39,0.01,102.0,0.79
+VitalCore | Lion's Mane Mushroom | CT |B0CCP8GG6X,B0CCP8GG6X,VitalCore,CT,32.61,0.02,102.0,2.07
+VitalCore | Lion's Mane Mushroom | Exact - Moved KWs |B0CCP8GG6X,B0CCP8GG6X,VitalCore,Exact - Moved KWs,143.87,0.09,102.0,9.14
+VitalCore | Lion's Mane Mushroom | Exact | SQP |B0CCP8GG6X,B0CCP8GG6X,VitalCore,SQP,53.62,0.03,102.0,3.4
+VitalCore | Lion's Mane Mushroom | Exact |B0CCP8GG6X,B0CCP8GG6X,VitalCore,Exact,53.37,0.03,102.0,3.39
+VitalCore | Lion's Mane Mushroom | NEW-PT | B0CCP8GG6X,B0CCP8GG6X,VitalCore,NEW-PT,70.53,0.04,102.0,4.48
+VitalCore | Lion's Mane Mushroom | PHRASE |B0CCP8GG6X,B0CCP8GG6X,VitalCore,PHRASE,116.5,0.0725,102.0,7.4
+VitalCore | Lion's Mane Mushroom | PT |B0CCP8GG6X,B0CCP8GG6X,VitalCore,PT,14.65,0.01,102.0,0.93
+VitalCore | Lion's Mane Mushroom | PT-1 |B0CCP8GG6X,B0CCP8GG6X,VitalCore,PT-1,21.76,0.01,102.0,1.38
+VitalCore | Lion's Mane Mushroom | SELF-PT | B0CCP8GG6X,B0CCP8GG6X,VitalCore,SELF-PT,80.48,0.05,102.0,5.11
+VitalCore | Lion's Mane Mushroom | SINGLE - PT | B0CCP8GG6X,B0CCP8GG6X,VitalCore,SINGLE - PT,7.84,0.0,102.0,0.5
+VitalCore | Lion's Mane Mushroom | SKAG |B0CCP8GG6X,B0CCP8GG6X,VitalCore,SKAG,516.6,0.32,102.0,32.8
+VitalCore | Berberine 120 Capsules | AUTO New | B0CHRNR4QH,B0CHRNR4QH,VitalCore,AUTO New,324.16,0.12,200.0,23.52
+VitalCore | Berberine 120 Capsules | Broad | B0CHRNR4QH,B0CHRNR4QH,VitalCore,Broad,179.0,0.06,200.0,12.99
+VitalCore | Berberine 120 Capsules | CT  | B0CHRNR4QH,B0CHRNR4QH,VitalCore,CT,47.39,0.02,200.0,3.44
+VitalCore | Berberine 120 Capsules | EFB | B0CHRNR4QH,B0CHRNR4QH,VitalCore,EFB,85.98,0.03,200.0,6.24
+VitalCore | Berberine 120 Capsules | Exact | B0CHRNR4QH,B0CHRNR4QH,VitalCore,Exact,320.99,0.12,200.0,23.29
+VitalCore | Berberine 120 Capsules | Phrase New | B0CHRNR4QH,B0CHRNR4QH,VitalCore,Phrase New,48.23,0.02,200.0,3.5
+VitalCore | Berberine 120 Capsules | PT | B0CHRNR4QH,B0CHRNR4QH,VitalCore,PT,262.24,0.1,200.0,19.03
+VitalCore | Berberine 120 Capsules | PT New | B0CHRNR4QH,B0CHRNR4QH,VitalCore,PT New,59.97,0.02,200.0,4.35
+VitalCore | Berberine 120 Capsules | PT-II | B0CHRNR4QH,B0CHRNR4QH,VitalCore,PT-II,26.28,0.01,200.0,1.91
+VitalCore | Berberine 120 Capsules | Self - PT | B0CHRNR4QH,B0CHRNR4QH,VitalCore,Self - PT,28.85,0.0105,200.0,2.09
+VitalCore | Berberine 120 Capsules | SKAG | B0CHRNR4QH,B0CHRNR4QH,VitalCore,SKAG,1272.21,0.46,200.0,92.31
+VitalCore | Berberine 120 Capsules | SQP- Phrase | B0CHRNR4QH,B0CHRNR4QH,VitalCore,SQP- Phrase,101.21,0.04,200.0,7.34
+VitalCore | Multivitamin Gummies for Men | Auto | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Auto,44.34,0.21,56.0,12.02
+VitalCore | Multivitamin Gummies for Men | Broad | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Broad,36.58,0.18,56.0,9.91
+VitalCore | Multivitamin Gummies for Men | CT | B0CSKBLHCB,B0CSKBLHCB,VitalCore,CT,23.69,0.11,56.0,6.42
+VitalCore | Multivitamin Gummies for Men | Exact | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Exact,24.4,0.12,56.0,6.61
+VitalCore | Multivitamin Gummies for Men | Indirect PTs | Creatine | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Creatine,3.22,0.02,56.0,0.87
+VitalCore | Multivitamin Gummies for Men | Moved Kws | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Moved Kws,9.41,0.05,56.0,2.55
+VitalCore | Multivitamin Gummies for Men | Moved PT | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Moved PT,4.68,0.02,56.0,1.27
+VitalCore | Multivitamin Gummies for Men | Phrase | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Phrase,2.34,0.01,56.0,0.63
+VitalCore | Multivitamin Gummies for Men | PT | B0CSKBLHCB,B0CSKBLHCB,VitalCore,PT,17.16,0.08,56.0,4.65
+VitalCore | Multivitamin Gummies for Men | PT- Tablet/Cap | B0CSKBLHCB,B0CSKBLHCB,VitalCore,PT- Tablet/Cap,6.97,0.03,56.0,1.89
+VitalCore | Multivitamin Gummies for Men | Self PT | B0CSKBLHCB,B0CSKBLHCB,VitalCore,Self PT,21.11,0.1,56.0,5.72
+VitalCore | Multivitamin Gummies for Men | SKAG- multivitamines homme  | B0CSKBLHCB,B0CSKBLHCB,VitalCore,SKAG- multivitamines homme,12.74,0.0617,56.0,3.45
+Grand Total,,Grand Total,Grand Total,131955.14,1.0,,12688.0

@@ -1,0 +1,9 @@
+metric,value,expected_approx,status
+plan_revenue,7405356.0,7405356,ok
+active_revenue,6139090.0,6139090,ok
+actual_income,5555108.0,5555108,ok
+plan_gp,1469257.0,1469257,ok
+active_gp,1200405.0,1200405,ok
+actual_gp,1088106.0,1088106,ok
+row_count,1230,1230,ok
+unique_asins,125,125,ok

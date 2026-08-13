@@ -1,0 +1,15 @@
+table,column,definition
+monthly_asin_pnl,month_start_date,First day of performance month (from Performance.pdf)
+monthly_asin_pnl,asin,Amazon Standard Identification Number — primary join key
+monthly_asin_pnl,target_revenue / target_gp,Original monthly plan targets
+monthly_asin_pnl,active_target_revenue / active_target_gp,Active/adjusted targets used for attainment (0 = inactive that month)
+monthly_asin_pnl,total_income / gross_profit,Actual revenue and gross profit
+monthly_asin_pnl,rev_attain_pct / gp_attain_pct,Actual ÷ active target (falls back to plan if active=0)
+monthly_asin_pnl,is_incomplete_month,1 for 2026-06 where active targets are missing — exclude from full-period KPIs or label
+prime_day_plan_vs_actual,bacos,Day-1 ad spend ÷ Day-1 sales (promo efficiency)
+prime_day_plan_vs_actual,expected_* vs day1_*,Prime Day plan expectations vs 9 Jul Day-1 actuals
+hourly_prime,time_slot,Unpivoted intra-day checkpoint (units & spend)
+campaign_budget,tactic,"Parsed campaign type hint (Exact, Broad, PT, SKAG, Auto, etc.)"
+cpu_mix,ppc_share / organic_share,Mix of attributed PPC vs organic; CPU = advertising ÷ PPC units when available
+asin_dim,asin,"Dimension table for product name, brand, SEO/PPC owners — join to all facts"
+_project,notes,Amazon Catalog Command Center · synthesized data · currency treated as EUR · join facts on asin

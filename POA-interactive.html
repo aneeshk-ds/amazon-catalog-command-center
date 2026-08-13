@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amazon Catalog Command Center — POA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1a2421;
+      --ink-soft: #3d4a45;
+      --muted: #6b7872;
+      --paper: #f3f1eb;
+      --panel: rgba(255, 252, 247, 0.82);
+      --line: rgba(26, 36, 33, 0.12);
+      --sea: #0f6b5c;
+      --sea-deep: #0a4d42;
+      --coral: #c45c26;
+      --sand: #d8c4a0;
+      --mist: #e7efe9;
+      --ok: #1f7a4d;
+      --warn: #a15c12;
+      --radius: 14px;
+      --shadow: 0 18px 40px rgba(26, 36, 33, 0.08);
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "DM Sans", system-ui, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(15, 107, 92, 0.16), transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, rgba(196, 92, 38, 0.12), transparent 50%),
+        linear-gradient(180deg, #efece4 0%, var(--paper) 40%, #ebe8e0 100%);
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.35;
+      background-image:
+        linear-gradient(rgba(26, 36, 33, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(26, 36, 33, 0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(180deg, #000 0%, transparent 75%);
+    }
+
+    a { color: var(--sea-deep); }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    /* NAV */
+    .topnav {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(14px);
+      background: rgba(243, 241, 235, 0.78);
+      border-bottom: 1px solid var(--line);
+    }
+    .topnav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.85rem 0;
+    }
+    .brand-mark {
+      display: flex;
+      align-items: baseline;
+      gap: 0.55rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand-mark strong {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    .brand-mark span {
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      justify-content: flex-end;
+    }
+    .nav-links button {
+      appearance: none;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--ink-soft);
+      font: inherit;
+      font-size: 0.86rem;
+      padding: 0.45rem 0.7rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 180ms ease, color 180ms ease, border-color 180ms ease;
+    }
+    .nav-links button:hover,
+    .nav-links button.active {
+      background: var(--mist);
+      border-color: rgba(15, 107, 92, 0.18);
+      color: var(--sea-deep);
+    }
+
+    /* HERO */
+    .hero {
+      padding: 3.2rem 0 2.2rem;
+      animation: rise 700ms ease both;
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: none; }
+    }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--sea);
+      font-weight: 600;
+      margin-bottom: 0.85rem;
+    }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(2.1rem, 5vw, 3.35rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin: 0 0 1rem;
+      max-width: 15ch;
+    }
+    .lede {
+      font-size: 1.08rem;
+      line-height: 1.55;
+      color: var(--ink-soft);
+      max-width: 52ch;
+      margin: 0 0 1.6rem;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+      padding: 0.78rem 1.1rem;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 160ms ease, background 160ms ease, box-shadow 160ms ease;
+    }
+    .btn:hover { transform: translateY(-1px); }
+    .btn-primary {
+      background: var(--sea);
+      color: #f7fffc;
+      box-shadow: 0 10px 24px rgba(15, 107, 92, 0.25);
+    }
+    .btn-primary:hover { background: var(--sea-deep); }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--line);
+      color: var(--ink);
+    }
+
+    .kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+    }
+    @media (max-width: 860px) {
+      .kpi-strip { grid-template-columns: repeat(2, 1fr); }
+    }
+    .kpi {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1rem 1.05rem;
+      box-shadow: var(--shadow);
+      animation: rise 800ms ease both;
+    }
+    .kpi:nth-child(2) { animation-delay: 60ms; }
+    .kpi:nth-child(3) { animation-delay: 120ms; }
+    .kpi:nth-child(4) { animation-delay: 180ms; }
+    .kpi .label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.35rem;
+    }
+    .kpi .value {
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.55rem;
+      letter-spacing: -0.02em;
+    }
+    .kpi .hint {
+      margin-top: 0.25rem;
+      font-size: 0.82rem;
+      color: var(--ink-soft);
+    }
+
+    section {
+      padding: 2.4rem 0;
+    }
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.2rem;
+    }
+    h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-size: clamp(1.45rem, 3vw, 1.9rem);
+      letter-spacing: -0.02em;
+      margin: 0;
+    }
+    .section-note {
+      color: var(--muted);
+      font-size: 0.92rem;
+      max-width: 34ch;
+      text-align: right;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 2px);
+      box-shadow: var(--shadow);
+      padding: 1.25rem;
+    }
+
+    /* STRATEGY TOGGLE */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 860px) {
+      .strategy-grid { grid-template-columns: 1fr; }
+    }
+    .choice-cards {
+      display: grid;
+      gap: 0.7rem;
+    }
+    .choice {
+      text-align: left;
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fffdf9;
+      border-radius: 12px;
+      padding: 1rem 1.05rem;
+      cursor: pointer;
+      font: inherit;
+      transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+    }
+    .choice:hover { transform: translateY(-1px); }
+    .choice.active {
+      border-color: rgba(15, 107, 92, 0.45);
+      background: linear-gradient(135deg, #f3faf7, #fffdf9);
+    }
+    .choice h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+    }
+    .choice p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+    .choice .tag {
+      display: inline-block;
+      margin-top: 0.55rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sea);
+    }
+    .choice.rejected .tag { color: var(--muted); }
+    .detail-box h3 {
+      font-family: Fraunces, Georgia, serif;
+      margin: 0 0 0.6rem;
+    }
+    .detail-box p {
+      margin: 0 0 0.8rem;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+    .detail-box ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+
+    /* SOURCES */
+    .source-tabs {
+      display: flex;
+      gap: 0.45rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .source-tabs button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: #fffdf9;
+      border-radius: 10px;
+      padding: 0.55rem 0.85rem;
+      font: inherit;
+      cursor: pointer;
+    }
+    .source-tabs button.active {
+      background: var(--sea);
+      border-color: var(--sea);
+      color: #f7fffc;
+    }
+    .source-pane { display: none; }
+    .source-pane.active { display: block; animation: rise 350ms ease both; }
+    .meta-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 700px) {
+      .meta-row { grid-template-columns: 1fr; }
+    }
+    .meta {
+      background: var(--mist);
+      border-radius: 10px;
+      padding: 0.8rem 0.9rem;
+    }
+    .meta strong {
+      display: block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+      font-weight: 600;
+    }
+    .sheet-list {
+      display: grid;
+      gap: 0.55rem;
+    }
+    .sheet {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 0.75rem;
+      padding: 0.75rem 0;
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 700px) {
+      .sheet { grid-template-columns: 1fr; }
+    }
+    .sheet b { color: var(--sea-deep); }
+
+    /* TIMELINE / PHASES */
+    .phases {
+      display: grid;
+      gap: 0.7rem;
+    }
+    .phase {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fffdf9;
+      overflow: hidden;
+    }
+    .phase-head {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 0.85rem;
+      align-items: center;
+      text-align: left;
+      padding: 1rem 1.05rem;
+      border: 0;
+      background: transparent;
+      font: inherit;
+      cursor: pointer;
+    }
+    .phase-num {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: var(--mist);
+      color: var(--sea-deep);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+    .phase.open .phase-num {
+      background: var(--sea);
+      color: #f7fffc;
+    }
+    .phase-title {
+      font-weight: 650;
+    }
+    .phase-sub {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 0.15rem;
+    }
+    .chev {
+      width: 1.5rem;
+      height: 1.5rem;
+      transition: transform 200ms ease;
+      color: var(--muted);
+    }
+    .phase.open .chev { transform: rotate(180deg); }
+    .phase-body {
+      display: none;
+      padding: 0 1.05rem 1.1rem 3.9rem;
+      color: var(--ink-soft);
+      line-height: 1.55;
+    }
+    .phase.open .phase-body { display: block; animation: rise 280ms ease both; }
+    .phase-body ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+    @media (max-width: 700px) {
+      .phase-body { padding-left: 1.05rem; }
+    }
+
+    /* DASHBOARDS */
+    .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.85rem;
+    }
+    @media (max-width: 800px) {
+      .dash-grid { grid-template-columns: 1fr; }
+    }
+    .dash-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background:
+        linear-gradient(160deg, rgba(15, 107, 92, 0.08), transparent 45%),
+        #fffdf9;
+      padding: 1.1rem 1.15rem;
+      cursor: pointer;
+      transition: transform 160ms ease, border-color 160ms ease;
+      min-height: 170px;
+    }
+    .dash-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(15, 107, 92, 0.35);
+    }
+    .dash-card.active {
+      border-color: var(--sea);
+      box-shadow: 0 14px 30px rgba(15, 107, 92, 0.12);
+    }
+    .dash-card .idx {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--sea);
+      font-weight: 700;
+      margin-bottom: 0.45rem;
+    }
+    .dash-card h3 {
+      margin: 0 0 0.45rem;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.2rem;
+    }
+    .dash-card p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+    .dash-detail {
+      margin-top: 1rem;
+      display: none;
+    }
+    .dash-detail.visible {
+      display: block;
+      animation: rise 300ms ease both;
+    }
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.85rem;
+    }
+    .chip {
+      font-size: 0.78rem;
+      padding: 0.35rem 0.6rem;
+      border-radius: 8px;
+      background: var(--mist);
+      color: var(--ink-soft);
+      border: 1px solid rgba(15, 107, 92, 0.12);
+    }
+
+    /* QUESTIONS */
+    .q-grid {
+      display: grid;
+      gap: 0.55rem;
+    }
+    .q-item {
+      display: grid;
+      grid-template-columns: 2.4rem 1fr;
+      gap: 0.7rem;
+      align-items: start;
+      padding: 0.85rem 0.95rem;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #fffdf9;
+    }
+    .q-item .n {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 8px;
+      background: rgba(196, 92, 38, 0.12);
+      color: var(--coral);
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    /* TIMELINE BAR */
+    .day-track {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.65rem;
+      margin-top: 0.5rem;
+    }
+    @media (max-width: 800px) {
+      .day-track { grid-template-columns: 1fr 1fr; }
+    }
+    .day {
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #fffdf9;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .day::before {
+      content: "";
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 4px;
+      background: var(--sea);
+    }
+    .day .d {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .day h3 {
+      margin: 0.35rem 0 0.4rem;
+      font-size: 1rem;
+    }
+    .day p {
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: 0.88rem;
+      line-height: 1.4;
+    }
+
+    /* RISKS + NEXT */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    @media (max-width: 800px) {
+      .two-col { grid-template-columns: 1fr; }
+    }
+    .risk {
+      padding: 0.7rem 0;
+      border-top: 1px solid var(--line);
+      color: var(--ink-soft);
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+    .risk:first-child { border-top: 0; padding-top: 0; }
+    .risk strong { color: var(--warn); }
+
+    .progress {
+      margin-top: 1rem;
+    }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      background: rgba(26, 36, 33, 0.08);
+      overflow: hidden;
+    }
+    .bar > span {
+      display: block;
+      height: 100%;
+      width: 18%;
+      background: linear-gradient(90deg, var(--sea), #2a9a82);
+      border-radius: inherit;
+      transition: width 500ms ease;
+    }
+
+    .checklist {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .checklist li {
+      display: flex;
+      gap: 0.7rem;
+      align-items: flex-start;
+      padding: 0.65rem 0;
+      border-top: 1px solid var(--line);
+      color: var(--ink-soft);
+    }
+    .checklist li:first-child { border-top: 0; }
+    .checklist input {
+      margin-top: 0.2rem;
+      accent-color: var(--sea);
+      width: 1.05rem;
+      height: 1.05rem;
+    }
+    .checklist li.done span {
+      text-decoration: line-through;
+      opacity: 0.65;
+    }
+
+    footer {
+      padding: 2rem 0 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--line);
+      margin-top: 1rem;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 1.2rem;
+      right: 1.2rem;
+      background: var(--ink);
+      color: #f7f4ee;
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity 200ms ease, transform 200ms ease;
+      z-index: 50;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="topnav">
+    <div class="wrap topnav-inner">
+      <a class="brand-mark" href="#top">
+        <strong>Amazon Catalog Command Center</strong>
+        <span>Plan of Action</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <button data-target="strategy">Strategy</button>
+        <button data-target="sources">Sources</button>
+        <button data-target="phases">Phases</button>
+        <button data-target="dashboards">Dashboards</button>
+        <button data-target="questions">Questions</button>
+        <button data-target="timeline">Timeline</button>
+        <button data-target="next">Next</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero wrap" id="top">
+    <div class="eyebrow">Amazon Catalog Command Center · synthesized catalog data</div>
+    <h1>Amazon Catalog Command Center</h1>
+    <p class="lede">
+      One Tableau presentation. Two source systems. Linked by ASIN —
+      monthly SEO P&amp;L from the PDF, Prime Day ops and ad economics from the Excel.
+    </p>
+    <div class="cta-row">
+      <button class="btn btn-primary" data-scroll="phases">Walk the plan</button>
+      <button class="btn btn-ghost" data-scroll="strategy">See data approach</button>
+    </div>
+    <div class="kpi-strip">
+      <article class="kpi">
+        <div class="label">Active attainment</div>
+        <div class="value">90.5%</div>
+        <div class="hint">€5.56M of €6.14M active rev</div>
+      </article>
+      <article class="kpi">
+        <div class="label">Gross profit</div>
+        <div class="value">€1.09M</div>
+        <div class="hint">19.6% portfolio margin</div>
+      </article>
+      <article class="kpi">
+        <div class="label">Catalog depth</div>
+        <div class="value">125</div>
+        <div class="hint">ASINs · 18 months</div>
+      </article>
+      <article class="kpi">
+        <div class="label">Workbooks</div>
+        <div class="value">1</div>
+        <div class="hint">4 dashboard chapters</div>
+      </article>
+    </div>
+  </header>
+
+  <section id="strategy">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>How we use the two datasets</h2>
+        <p class="section-note">Click an option to compare approaches. Recommended path is selected.</p>
+      </div>
+      <div class="strategy-grid">
+        <div class="choice-cards" id="choices">
+          <button class="choice active" data-choice="linked">
+            <h3>One Tableau · linked tables</h3>
+            <p>Keep separate clean tables, join on ASIN. PDF = long story; Excel = Prime Day + ads chapter.</p>
+            <span class="tag">Recommended</span>
+          </button>
+          <button class="choice rejected" data-choice="separate">
+            <h3>Two unique projects</h3>
+            <p>Separate Tableau Public pieces for PDF vs Excel — weaker portfolio narrative.</p>
+            <span class="tag">Not chosen</span>
+          </button>
+          <button class="choice rejected" data-choice="flat">
+            <h3>Blind flatten / mega-merge</h3>
+            <p>Force every sheet into one grain — double-counts and breaks campaign/hourly detail.</p>
+            <span class="tag">Avoid</span>
+          </button>
+        </div>
+        <div class="panel detail-box" id="choiceDetail">
+          <h3>Linked model</h3>
+          <p>Build a small star schema for Tableau: monthly performance fact, Prime Day fact, hourly event, campaign budget, CPU mix, and an ASIN dimension (name, brand, SEO/PPC owners).</p>
+          <ul>
+            <li>Grain stays honest per sheet</li>
+            <li>Cross-filtering by ASIN across chapters</li>
+            <li>One portfolio story with clear acts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sources">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Source map</h2>
+        <p class="section-note">Toggle between the PDF P&amp;L and the Prime Deal workbook.</p>
+      </div>
+      <div class="panel">
+        <div class="source-tabs" id="sourceTabs">
+          <button class="active" data-pane="pdf">Performance.pdf</button>
+          <button data-pane="xlsx">Prime Deal — 2025 Plan.xlsx</button>
+        </div>
+
+        <div class="source-pane active" id="pane-pdf">
+          <div class="meta-row">
+            <div class="meta"><strong>Role</strong>Main plot — SEO P&amp;L over time</div>
+            <div class="meta"><strong>Grain</strong>Month × ASIN × handler</div>
+            <div class="meta"><strong>Span</strong>Jan 2025 → Jun 2026</div>
+          </div>
+          <p style="margin:0 0 0.8rem;color:var(--ink-soft);line-height:1.5">
+            Fields: plan revenue / GP, active targets, actual income, gross profit.
+            Header strip reconciles to plan €7.41M / active €6.14M / actual €5.56M.
+          </p>
+          <div class="chip-row">
+            <span class="chip">~1,230 rows</span>
+            <span class="chip">Handler: Aneesh Kumar</span>
+            <span class="chip">H1 soft → H2 recovery arc</span>
+          </div>
+        </div>
+
+        <div class="source-pane" id="pane-xlsx">
+          <div class="meta-row">
+            <div class="meta"><strong>Role</strong>Event ops + ads economics</div>
+            <div class="meta"><strong>Anchor</strong>Prime Day ~8–9 Jul 2025</div>
+            <div class="meta"><strong>Join key</strong>ASIN (+ owners)</div>
+          </div>
+          <div class="sheet-list">
+            <div class="sheet"><b>Spend allocation</b><span>Deal prices, expected units/sales, Day-1 actuals, BACOS vs GP%</span></div>
+            <div class="sheet"><b>Hourly Update</b><span>Intra-day units &amp; spend pace for deal days</span></div>
+            <div class="sheet"><b>Campaign spend Budget</b><span>~595 campaigns — Exact / Broad / PT / SKAG vs budget</span></div>
+            <div class="sheet"><b>CPU per product</b><span>CPU, PPC vs organic share, ad spend</span></div>
+            <div class="sheet"><b>Rough</b><span>Working roster — SEO/PPC owners, BA, deal GP% (dim only)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="phases">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Plan of action — phases</h2>
+        <p class="section-note">Expand each phase. Mark checklist items under Next when you execute.</p>
+      </div>
+      <div class="phases" id="phasesList">
+        <article class="phase open">
+          <button class="phase-head" aria-expanded="true">
+            <span class="phase-num">0</span>
+            <span>
+              <div class="phase-title">Scope &amp; ethics</div>
+              <div class="phase-sub">0.5 day · portfolio framing</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Label data as synthesized / anonymized. Decide whether brand names stay or are lightly renamed. Treat currency as EUR. Flag Jun 2026 (active targets = 0) as incomplete so it does not skew KPIs.
+          </div>
+        </article>
+
+        <article class="phase">
+          <button class="phase-head" aria-expanded="false">
+            <span class="phase-num">1</span>
+            <span>
+              <div class="phase-title">Data engineering for Tableau</div>
+              <div class="phase-sub">1–2 days · clean tables + dictionary</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Extract PDF to a monthly fact. Normalize Excel into asin_dim, prime_day_plan_vs_actual, hourly_prime (unpivoted), campaign_budget (parse tactic), cpu_mix.
+            Pre-build attainment %, margin, gap €, BACOS, Pareto, MoM. Validate totals to the €5.56M / €1.09M header.
+            <ul>
+              <li>Deliverable: CSV pack or Hyper-ready tables + data dictionary</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="phase">
+          <button class="phase-head" aria-expanded="false">
+            <span class="phase-num">2</span>
+            <span>
+              <div class="phase-title">Analysis spine</div>
+              <div class="phase-sub">Credibility = answered questions</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Work the eight diagnostic questions in order (see Questions). Each becomes a dashboard chapter insight, ending in 5–8 ASIN-level actions: scale / fix / pause / reallocate with € logic.
+          </div>
+        </article>
+
+        <article class="phase">
+          <button class="phase-head" aria-expanded="false">
+            <span class="phase-num">3</span>
+            <span>
+              <div class="phase-title">Infographic Tableau build</div>
+              <div class="phase-sub">2–3 days · 4 canvases</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Executive Story → Catalog Deep Dive → Prime Day War Room → Ad Efficiency &amp; Actions.
+            Large numbers, short annotations, limited palette (teal / slate / amber risk). One question per chart. Filters lean on later sheets, not the hero.
+          </div>
+        </article>
+
+        <article class="phase">
+          <button class="phase-head" aria-expanded="false">
+            <span class="phase-num">4</span>
+            <span>
+              <div class="phase-title">Narrative package</div>
+              <div class="phase-sub">1 day · publish + case study</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Tableau Public or .twbx + one-page PDF: context → method → 4–5 findings → recommendations → skills. Optional 60–90s walkthrough.
+          </div>
+        </article>
+
+        <article class="phase">
+          <button class="phase-head" aria-expanded="false">
+            <span class="phase-num">5</span>
+            <span>
+              <div class="phase-title">Polish &amp; QA</div>
+              <div class="phase-sub">0.5 day · reconcile &amp; define</div>
+            </span>
+            <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="phase-body">
+            Reconcile KPIs, check join inflation, document Plan vs Active Target / BACOS / CPU / PPC share. Exclude or clearly label incomplete Jun 2026 from “full period” views.
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="dashboards">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Dashboard chapters</h2>
+        <p class="section-note">Select a card to preview the visual plan for that canvas.</p>
+      </div>
+      <div class="dash-grid" id="dashGrid">
+        <article class="dash-card active" data-dash="exec">
+          <div class="idx">01 · Hero</div>
+          <h3>Executive Story</h3>
+          <p>Portfolio verdict in one screen: Plan / Active / Actual, attainment, margin band, three headline callouts.</p>
+        </article>
+        <article class="dash-card" data-dash="catalog">
+          <div class="idx">02 · Diagnose</div>
+          <h3>Catalog Deep Dive</h3>
+          <p>Pareto, attain vs margin scatter, GP gap waterfall, monthly heatmap for the SEO book.</p>
+        </article>
+        <article class="dash-card" data-dash="prime">
+          <div class="idx">03 · Event</div>
+          <h3>Prime Day War Room</h3>
+          <p>Plan vs Day-1 actual, hourly pace, BACOS–GP tension, spend variance.</p>
+        </article>
+        <article class="dash-card" data-dash="ads">
+          <div class="idx">04 · Act</div>
+          <h3>Ad Efficiency &amp; Actions</h3>
+          <p>Tactic mix, CPU rank, PPC dependency, Scale / Optimize / Cut matrix.</p>
+        </article>
+      </div>
+      <div class="panel dash-detail visible" id="dashDetail">
+        <h3 style="font-family:Fraunces,Georgia,serif;margin:0 0 0.5rem">Executive Story</h3>
+        <p style="margin:0;color:var(--ink-soft);line-height:1.55" id="dashCopy">
+          Open with the €5.56M / €1.09M strip and the soft-H1 → recovery arc. Keep filters minimal. Annotations state the thesis: concentration + improving attainment, margin still the real scoreboard.
+        </p>
+        <div class="chip-row" id="dashChips">
+          <span class="chip">KPI strip</span>
+          <span class="chip">18-mo sparkline</span>
+          <span class="chip">3 headlines</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Eight questions the workbook must answer</h2>
+        <p class="section-note">This is the credibility spine — charts serve these, not the reverse.</p>
+      </div>
+      <div class="q-grid">
+        <div class="q-item"><div class="n">1</div><div>Did the portfolio hit active targets? (rev + GP monthly)</div></div>
+        <div class="q-item"><div class="n">2</div><div>Where did the money come from? (Pareto / concentration)</div></div>
+        <div class="q-item"><div class="n">3</div><div>Was growth profitable? (margin vs revenue winners)</div></div>
+        <div class="q-item"><div class="n">4</div><div>What dragged attainment? (inactive targets, zeros, low cohort)</div></div>
+        <div class="q-item"><div class="n">5</div><div>Prime Day: plan quality vs execution?</div></div>
+        <div class="q-item"><div class="n">6</div><div>Did ads pay for the deal? (BACOS vs GP%, CPU, mix)</div></div>
+        <div class="q-item"><div class="n">7</div><div>Who owned what? (SEO vs PPC accountability)</div></div>
+        <div class="q-item"><div class="n">8</div><div>What do we do next? (5–8 ASIN actions with € logic)</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Four-day build path</h2>
+        <p class="section-note">Compressed schedule for a portfolio-ready first publish.</p>
+      </div>
+      <div class="day-track">
+        <article class="day">
+          <div class="d">Day 1</div>
+          <h3>Clean &amp; model</h3>
+          <p>Extract PDF, normalize Excel, dictionary, reconcile header KPIs.</p>
+        </article>
+        <article class="day">
+          <div class="d">Day 2</div>
+          <h3>Exec + Catalog</h3>
+          <p>Calculated fields, hero canvas, ASIN diagnosis views.</p>
+        </article>
+        <article class="day">
+          <div class="d">Day 3</div>
+          <h3>Prime + Ads</h3>
+          <p>War room, campaign/CPU sheets, action matrix.</p>
+        </article>
+        <article class="day">
+          <div class="d">Day 4</div>
+          <h3>Story &amp; QA</h3>
+          <p>Write-up, reconcile, publish Tableau Public / package .twbx.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="next">
+    <div class="wrap two-col">
+      <div class="panel">
+        <h2 style="margin-bottom:0.8rem">Watchouts</h2>
+        <div class="risk"><strong>Parse risk ·</strong> PDF text is poorly spaced — validate against €7.41M / €5.56M.</div>
+        <div class="risk"><strong>Rough sheet ·</strong> Use for owner mapping only, not as a fact table.</div>
+        <div class="risk"><strong>CPU quirks ·</strong> Clean #DIV/0! and PPC share &gt; 1 before viz.</div>
+        <div class="risk"><strong>Causation ·</strong> Frame as portfolio + promo/ad efficiency, not “SEO caused X.”</div>
+      </div>
+      <div class="panel">
+        <h2 style="margin-bottom:0.35rem">Execution checklist</h2>
+        <p style="margin:0 0 0.6rem;color:var(--muted);font-size:0.9rem">Tick as you go — progress bar updates live.</p>
+        <div class="progress">
+          <div class="progress-label"><span>Plan progress</span><span id="progressPct">0%</span></div>
+          <div class="bar"><span id="progressBar"></span></div>
+        </div>
+        <ul class="checklist" id="checklist">
+          <li><input type="checkbox" /><span>Confirm brand naming (keep vs anonymize)</span></li>
+          <li><input type="checkbox" /><span>Export cleaned CSVs from PDF + Excel</span></li>
+          <li><input type="checkbox" /><span>Build ASIN dimension + joins</span></li>
+          <li><input type="checkbox" /><span>Tableau: Executive + Catalog</span></li>
+          <li><input type="checkbox" /><span>Tableau: Prime Day + Ads/Actions</span></li>
+          <li><input type="checkbox" /><span>Case study PDF + publish</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    Amazon Catalog Command Center · Synthesized catalog data · Plan of Action for a single Tableau portfolio presentation ·
+    File: <code>POA-interactive.html</code>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    const choiceCopy = {
+      linked: {
+        title: "Linked model",
+        body: "Build a small star schema for Tableau: monthly performance fact, Prime Day fact, hourly event, campaign budget, CPU mix, and an ASIN dimension (name, brand, SEO/PPC owners).",
+        bullets: [
+          "Grain stays honest per sheet",
+          "Cross-filtering by ASIN across chapters",
+          "One portfolio story with clear acts"
+        ]
+      },
+      separate: {
+        title: "Two unique projects",
+        body: "You could publish PDF P&L and Prime Day as separate workbooks. It shows range, but hiring managers rarely connect the dots — the portfolio impact is weaker.",
+        bullets: [
+          "No shared ASIN narrative",
+          "Duplicate cleanup work",
+          "Harder to show decision analytics end-to-end"
+        ]
+      },
+      flat: {
+        title: "Blind flatten",
+        body: "Merging every sheet into one flat file mixes month-level P&L with hourly event rows and campaign grain. Totals inflate and visuals become unreliable.",
+        bullets: [
+          "Double-counting risk",
+          "Broken campaign/hourly detail",
+          "Hard to defend in a case-study walkthrough"
+        ]
+      }
+    };
+
+    const dashCopy = {
+      exec: {
+        title: "Executive Story",
+        body: "Open with the €5.56M / €1.09M strip and the soft-H1 → recovery arc. Keep filters minimal. Annotations state the thesis: concentration + improving attainment, margin still the real scoreboard.",
+        chips: ["KPI strip", "18-mo sparkline", "3 headlines"]
+      },
+      catalog: {
+        title: "Catalog Deep Dive",
+        body: "Show who carries the book (collagen, creatine, vibration plate) versus chronic under-attainers and negative-GP ASINs. Scatter attain % vs margin to separate ‘busy’ from ‘valuable’.",
+        chips: ["Pareto", "Attain × margin", "GP gap waterfall", "Heatmap"]
+      },
+      prime: {
+        title: "Prime Day War Room",
+        body: "Tell the July event as a stress test: expected units/sales/spend vs Day-1 actual, then hourly pace. Pair BACOS with expected GP% to ask whether volume was bought profitably.",
+        chips: ["Plan vs actual", "Hourly pace", "BACOS vs GP%", "Spend variance"]
+      },
+      ads: {
+        title: "Ad Efficiency & Actions",
+        body: "Campaign tactic concentration (SKAG / PT / Exact), CPU ranking, PPC dependency vs organic. Close with a Scale / Optimize / Cut matrix tied back to PDF GP so actions feel earned.",
+        chips: ["Tactic mix", "CPU rank", "PPC share", "Action matrix"]
+      }
+    };
+
+    function showToast(msg) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      clearTimeout(showToast._timer);
+      showToast._timer = setTimeout(() => t.classList.remove("show"), 1600);
+    }
+
+    // Smooth section nav
+    document.querySelectorAll("[data-scroll]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.getElementById(btn.dataset.scroll)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    document.querySelectorAll("#navLinks button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.getElementById(btn.dataset.target)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
+    // Active nav on scroll
+    const sections = ["strategy", "sources", "phases", "dashboards", "questions", "timeline", "next"]
+      .map((id) => document.getElementById(id));
+    const navButtons = [...document.querySelectorAll("#navLinks button")];
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        navButtons.forEach((b) => b.classList.toggle("active", b.dataset.target === entry.target.id));
+      });
+    }, { rootMargin: "-40% 0px -50% 0px", threshold: 0.01 });
+    sections.forEach((s) => s && io.observe(s));
+
+    // Strategy choices
+    document.querySelectorAll("#choices .choice").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("#choices .choice").forEach((c) => c.classList.remove("active"));
+        btn.classList.add("active");
+        const data = choiceCopy[btn.dataset.choice];
+        const box = document.getElementById("choiceDetail");
+        box.innerHTML = `
+          <h3>${data.title}</h3>
+          <p>${data.body}</p>
+          <ul>${data.bullets.map((b) => `<li>${b}</li>`).join("")}</ul>
+        `;
+        showToast(btn.dataset.choice === "linked" ? "Recommended path selected" : "Compare — recommended remains Linked");
+      });
+    });
+
+    // Source tabs
+    document.querySelectorAll("#sourceTabs button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("#sourceTabs button").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        document.querySelectorAll(".source-pane").forEach((p) => p.classList.remove("active"));
+        document.getElementById("pane-" + btn.dataset.pane).classList.add("active");
+      });
+    });
+
+    // Accordion phases
+    document.querySelectorAll(".phase-head").forEach((head) => {
+      head.addEventListener("click", () => {
+        const phase = head.parentElement;
+        const willOpen = !phase.classList.contains("open");
+        document.querySelectorAll(".phase").forEach((p) => {
+          p.classList.remove("open");
+          p.querySelector(".phase-head").setAttribute("aria-expanded", "false");
+        });
+        if (willOpen) {
+          phase.classList.add("open");
+          head.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+
+    // Dashboard cards
+    document.querySelectorAll("#dashGrid .dash-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        document.querySelectorAll("#dashGrid .dash-card").forEach((c) => c.classList.remove("active"));
+        card.classList.add("active");
+        const d = dashCopy[card.dataset.dash];
+        document.getElementById("dashDetail").classList.add("visible");
+        document.querySelector("#dashDetail h3").textContent = d.title;
+        document.getElementById("dashCopy").textContent = d.body;
+        document.getElementById("dashChips").innerHTML = d.chips.map((c) => `<span class="chip">${c}</span>`).join("");
+      });
+    });
+
+    // Checklist progress
+    const checks = [...document.querySelectorAll("#checklist input")];
+    const bar = document.getElementById("progressBar");
+    const pct = document.getElementById("progressPct");
+    function updateProgress() {
+      const done = checks.filter((c) => c.checked).length;
+      const p = Math.round((done / checks.length) * 100);
+      bar.style.width = p + "%";
+      pct.textContent = p + "%";
+      checks.forEach((c) => c.closest("li").classList.toggle("done", c.checked));
+      try { localStorage.setItem("cc-poa-checks", JSON.stringify(checks.map((c) => c.checked))); } catch (_) {}
+    }
+    try {
+      const saved = JSON.parse(localStorage.getItem("cc-poa-checks") || "[]");
+      checks.forEach((c, i) => { if (saved[i]) c.checked = true; });
+    } catch (_) {}
+    checks.forEach((c) => c.addEventListener("change", updateProgress));
+    updateProgress();
+  </script>
+</body>
+</html>

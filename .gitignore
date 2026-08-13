@@ -1,0 +1,16 @@
+.DS_Store
+*.hyper
+*.twbx
+*.twb
+*.twb.bak*
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+data/raw/
+*.pdf
+*.xlsx
+*.xls
+Thumbs.db
