@@ -28,7 +28,7 @@ Data is synthesized for portfolio demonstration. Brand names in the clean files 
 ## Workbook
 
 - **Local:** Tableau Desktop workbook *Amazon Catalog Command Center* (Executive + Prime Day dashboards + story)
-- **Public:** _(link after Tableau Public publish)_
+- **Public:** [Amazon Catalog Command Center — Story](https://public.tableau.com/app/profile/aneesh.kumar2834/viz/AmazonCatalogCommandCenter/CatalogPerformanceStory)
 
 Design follows the same dark visual standard as Projects 2–3.
 
